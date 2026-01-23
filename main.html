@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html class="light" lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>AllMake | Digital Innovation Agency</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Noto+Sans+KR:wght@400;500;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00d1b2",
+                        "background-light": "#f8f9fa",
+                        "background-dark": "#0f2320",
+                        "deep-charcoal": "#2D3436",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "Noto Sans KR", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Sans KR', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .mint-shadow {
+            box-shadow: 0 10px 30px -10px rgba(0, 209, 178, 0.2);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-deep-charcoal dark:text-gray-100 antialiased">
+    <!-- Top Navigation Bar -->
+    <header
+        class="sticky top-0 z-50 w-full bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white">
+                    <span class="material-symbols-outlined text-2xl">developer_mode_tv</span>
+                </div>
+                <h1 class="text-2xl font-extrabold tracking-tight text-deep-charcoal dark:text-white">AllMake</h1>
+            </div>
+            <nav class="hidden md:flex items-center gap-10">
+                <a class="text-sm font-bold hover:text-primary transition-colors" href="#">HOME</a>
+                <a class="text-sm font-bold hover:text-primary transition-colors" href="#">PORTFOLIO</a>
+                <a class="text-sm font-bold hover:text-primary transition-colors" href="#">SERVICES</a>
+                <a class="text-sm font-bold hover:text-primary transition-colors" href="#">ABOUT</a>
+                <a class="text-sm font-bold hover:text-primary transition-colors" href="#">CONTACT</a>
+            </nav>
+            <button
+                class="bg-primary hover:bg-opacity-90 text-white px-6 py-2.5 rounded-lg font-bold text-sm transition-all mint-shadow">
+                견적 문의하기
+            </button>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden pt-16 pb-24 md:pt-32 md:pb-40">
+            <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                <div class="z-10">
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary font-bold text-xs mb-6 tracking-wider uppercase">
+                        <span class="relative flex h-2 w-2">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                        </span>
+                        Next-Gen Software Partner
+                    </div>
+                    <h1 class="text-5xl md:text-7xl font-black text-deep-charcoal dark:text-white leading-[1.1] mb-8">
+                        AllMake: Building <br />The <span class="text-primary">Future</span> of <br />Digital Innovation
+                    </h1>
+                    <p class="text-lg text-gray-500 dark:text-gray-400 mb-10 max-w-lg leading-relaxed">
+                        Software development, Blockchain, and UI/UX solutions <br class="hidden md:block" /> tailored
+                        for modern growth and enterprise excellence.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <button
+                            class="bg-primary hover:scale-105 transition-transform text-white px-8 py-4 rounded-xl font-bold text-lg mint-shadow">
+                            견적 문의하기
+                        </button>
+                        <button
+                            class="border-2 border-gray-200 dark:border-gray-700 hover:border-primary transition-colors px-8 py-4 rounded-xl font-bold text-lg">
+                            포트폴리오 보기
+                        </button>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div
+                        class="w-full aspect-square rounded-[2rem] bg-gradient-to-br from-primary/20 to-transparent absolute -top-10 -right-10 blur-3xl opacity-50">
+                    </div>
+                    <div class="relative rounded-3xl overflow-hidden shadow-2xl">
+                        <img alt="Modern digital workspace with futuristic dashboard" class="w-full h-full object-cover"
+                            data-alt="Futuristic software development dashboard on a screen"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuABSmXZwpY-B8IZmhM7X7R7OP5IgzdBtjZrVsBAdnGTFsix6RFJaO2QIMD-nXA92PYTsX5PosBQL_suhEJI8Ag28qzWJ8k9xWlRsyzF2ivknKNCNfx7T6Fx0Og-JnJAAI0GlGzecdK3rAPkFP7RiGyNtSdki79RnLz4a5YDkEtB-SZzT3in8U8ykf28Nis2f00V-deBW9EOF4hw_TTQSvyou8Zrfur2J1sofvcyiebXiiFY03Z0UNoiwJ9eJMo_OfpiYXTBvD622Yg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Stats Section -->
+        <section class="bg-white dark:bg-background-dark/50 py-16 border-y border-gray-100 dark:border-gray-800">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="flex items-center gap-6 p-8 rounded-2xl bg-background-light dark:bg-gray-800/30">
+                        <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined text-3xl font-bold">check_circle</span>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-black text-deep-charcoal dark:text-white mb-1">100+</p>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-widest">Projects Completed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-6 p-8 rounded-2xl bg-background-light dark:bg-gray-800/30">
+                        <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined text-3xl font-bold">groups</span>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-black text-deep-charcoal dark:text-white mb-1">10+</p>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-widest">Technical Experts</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center gap-6 p-8 rounded-2xl bg-background-light dark:bg-gray-800/30 border-2 border-primary/20">
+                        <div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white">
+                            <span class="material-symbols-outlined text-3xl">star</span>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-black text-deep-charcoal dark:text-white mb-1">98%</p>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-widest">Client Satisfaction
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Core Services Section -->
+        <section class="py-24 md:py-32">
+            <div class="max-w-7xl mx-auto px-6 text-center mb-16">
+                <h2 class="text-primary font-bold text-sm tracking-[0.2em] uppercase mb-4">How we can help</h2>
+                <h3 class="text-4xl md:text-5xl font-black text-deep-charcoal dark:text-white">Our Core Services</h3>
+            </div>
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Web Dev -->
+                    <div
+                        class="bg-white dark:bg-gray-800/50 p-8 rounded-2xl border border-gray-100 dark:border-gray-700 card-hover">
+                        <div
+                            class="w-14 h-14 bg-background-light dark:bg-gray-700 rounded-xl flex items-center justify-center text-primary mb-6">
+                            <span class="material-symbols-outlined text-3xl">desktop_windows</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-4">Web Development</h4>
+                        <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                            Custom web applications built with modern frameworks for performance and scalability.
+                        </p>
+                    </div>
+                    <!-- Mobile Apps -->
+                    <div
+                        class="bg-white dark:bg-gray-800/50 p-8 rounded-2xl border border-gray-100 dark:border-gray-700 card-hover">
+                        <div
+                            class="w-14 h-14 bg-background-light dark:bg-gray-700 rounded-xl flex items-center justify-center text-primary mb-6">
+                            <span class="material-symbols-outlined text-3xl">smartphone</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-4">Mobile Apps</h4>
+                        <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                            High-performance native and cross-platform mobile experiences for iOS and Android.
+                        </p>
+                    </div>
+                    <!-- UI/UX -->
+                    <div
+                        class="bg-white dark:bg-gray-800/50 p-8 rounded-2xl border border-gray-100 dark:border-gray-700 card-hover">
+                        <div
+                            class="w-14 h-14 bg-background-light dark:bg-gray-700 rounded-xl flex items-center justify-center text-primary mb-6">
+                            <span class="material-symbols-outlined text-3xl">palette</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-4">UI/UX Design</h4>
+                        <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                            User-centric design focused on high conversion rates and aesthetic beauty.
+                        </p>
+                    </div>
+                    <!-- Blockchain -->
+                    <div
+                        class="bg-primary/5 dark:bg-primary/10 p-8 rounded-2xl border border-primary/20 card-hover ring-2 ring-primary ring-opacity-10">
+                        <div class="w-14 h-14 bg-primary rounded-xl flex items-center justify-center text-white mb-6">
+                            <span class="material-symbols-outlined text-3xl">currency_bitcoin</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-4 text-primary">Blockchain Solutions</h4>
+                        <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                            Expertise in Smart Contracts, DApps, and seamless Wallet Integration for the Web3 era.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Section -->
+        <section class="mb-24 px-6">
+            <div
+                class="max-w-7xl mx-auto bg-deep-charcoal dark:bg-gray-900 rounded-[2.5rem] p-12 md:p-24 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-1/3 h-full bg-primary/20 blur-[100px]"></div>
+                <div class="relative z-10 md:flex items-center justify-between gap-12">
+                    <div class="max-w-xl">
+                        <h2 class="text-4xl md:text-5xl font-black text-white mb-6">Ready to start your digital journey?
+                        </h2>
+                        <p class="text-gray-400 text-lg mb-0">Partner with AllMake and turn your ambitious ideas into
+                            world-class digital realities.</p>
+                    </div>
+                    <div class="mt-10 md:mt-0 flex flex-col gap-4">
+                        <button
+                            class="bg-primary text-deep-charcoal px-10 py-5 rounded-2xl font-bold text-xl hover:bg-white transition-colors text-center">
+                            지금 바로 상담하기
+                        </button>
+                        <p class="text-gray-500 text-center text-sm">Response within 24 hours</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-background-dark py-12 border-t border-gray-100 dark:border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-primary rounded flex items-center justify-center text-white">
+                    <span class="material-symbols-outlined text-lg">developer_mode_tv</span>
+                </div>
+                <span class="text-xl font-bold tracking-tight">AllMake</span>
+            </div>
+            <p class="text-gray-500 text-sm">© 2024 AllMake. All rights reserved.</p>
+            <div class="flex gap-6">
+                <a class="text-gray-400 hover:text-primary transition-colors" href="#">Privacy Policy</a>
+                <a class="text-gray-400 hover:text-primary transition-colors" href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating KakaoTalk Button -->
+    <a class="fixed bottom-8 right-8 w-16 h-16 bg-[#FEE500] rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform z-50"
+        href="#">
+        <svg class="w-8 h-8 text-[#3c1e1e]" fill="currentColor" viewbox="0 0 24 24">
+            <path
+                d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.558 1.712 4.8 4.32 6.131l-.81 2.981c-.07.258.085.512.335.563a.49.49 0 00.443-.162l3.484-2.31c.404.053.815.082 1.228.082 4.97 0 9-3.185 9-7.115S16.97 3 12 3z">
+            </path>
+        </svg>
+    </a>
+</body>
+
+</html>
