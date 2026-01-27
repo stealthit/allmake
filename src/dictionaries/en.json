@@ -1,0 +1,306 @@
+{
+    "nav": {
+        "home": "HOME",
+        "portfolio": "PORTFOLIO",
+        "services": "SERVICES",
+        "about": "ABOUT",
+        "contact": "CONTACT",
+        "quote": "Get a Quote"
+    },
+    "about": {
+        "badge": "About STEALTH",
+        "hero_title_prefix": "Technology Changing the World, ",
+        "hero_desc_1": "STEALTH leads the digital future through continuous technological innovation.",
+        "hero_desc_2": "We provide the best software solutions that maximize your business value.",
+        "core_values_badge": "Core Values",
+        "core_values_title": "Our Core Values",
+        "value_trust_title": "Trust",
+        "value_trust_desc_1": "We prioritize trust and value partnership with our customers.",
+        "value_trust_desc_2": "We promise the best results through transparent communication.",
+        "value_innovation_title": "Innovation",
+        "value_innovation_desc_1": "We present new digital possibilities with innovative thinking tailored to break the mold.",
+        "value_innovation_desc_2": "We lead the latest technology trends.",
+        "value_growth_title": "Growth",
+        "value_growth_desc_1": "As a partner growing with our clients,",
+        "value_growth_desc_2": "We establish the technical foundation for sustainable business growth.",
+        "history_badge": "History",
+        "history_title": "Our Journey",
+        "history_2026_title": "Expansion into AI Market & Services",
+        "history_2026_desc": "Preparing for AI-based content service launch",
+        "history_2025_title": "Expansion of Blockchain & AI Business",
+        "history_2025_desc": "Establishment of specialized departments and execution of multiple projects",
+        "history_2024_title": "Surpassed 100th Project",
+        "history_2024_desc": "Achieved 100 cumulative completed projects and recorded 100% customer satisfaction",
+        "history_2019_title": "Establishment of Stealth Interactive",
+        "history_2019_desc": "Launched as a next-generation software agency, starting to lead digital transformation",
+        "cta_title": "Ready to start your digital journey?",
+        "cta_desc": "Lead your business to digital innovation with STEALTH.",
+        "cta_button": "Consult Now"
+    },
+    "services": {
+        "badge": "Expertise & Capabilities",
+        "hero_title_prefix": "Our ",
+        "hero_title_main": "Services",
+        "hero_desc_1": "STEALTH leads the digital transformation of businesses based on the latest technology stack and rich experience.",
+        "hero_desc_2": "From planning to deployment, we provide professional development solutions with the highest quality and speed.",
+        "ai_title": "AI & Data Solutions",
+        "ai_desc": "We support strategic AI adoption for business intelligence. From utilizing the latest Large Language Models (LLM) to custom AI modeling and data analysis, we provide next-generation solutions that enhance corporate competitiveness.",
+        "ai_check_1": "Enterprise LLM construction and service integration",
+        "ai_check_2": "Deriving business insights based on machine learning",
+        "web_title": "Web Development",
+        "web_desc": "We build high-performance custom web applications to achieve business goals. We provide optimal solutions with excellent scalability and maintainability using the latest frameworks.",
+        "web_check_1": "Responsive design and cross-browser optimization",
+        "web_check_2": "SEO optimization and enhanced search engine visibility",
+        "mobile_title": "Mobile Apps",
+        "mobile_desc": "We develop high-performance mobile applications that work seamlessly in both iOS and Android environments. We ensure native-level performance and intuitive usability.",
+        "mobile_check_1": "Store registration support and service launch management",
+        "mobile_check_2": "Optimization of push notifications and external API integration",
+        "uiux_title": "UI/UX Design",
+        "uiux_desc": "We create beautiful and easy-to-use designs based on user-centered thinking. We provide precise UX design for high conversion rates and user satisfaction.",
+        "uiux_check_1": "User scenario analysis and prototyping",
+        "uiux_check_2": "Custom design reflecting brand identity",
+        "blockchain_title": "Blockchain Solutions",
+        "blockchain_desc": "We support the development of DApps using Ethereum-based Solidity and exchange-type wallets such as BTC, ETH, XRP. We provide technical capabilities for a safe and transparent Web3 ecosystem.",
+        "blockchain_check_1": "Smart contract development and security audit",
+        "blockchain_check_2": "Construction of NFT minting sites and marketplaces",
+        "cta_title": "Start with the best partner.",
+        "cta_desc": "You can just bring your idea. STEALTH takes responsibility for the successful digital implementation of your business until the end.",
+        "cta_button_consult": "Consult Now",
+        "cta_button_portfolio": "View Portfolio"
+    },
+    "contact": {
+        "badge": "Building a New Future Together",
+        "hero_title_prefix": "Contact ",
+        "hero_title_suffix": "Us",
+        "hero_desc_1": "Start your new project with STEALTH.",
+        "hero_desc_2": "We propose optimal digital solutions through professional consulting.",
+        "office_title": "Office",
+        "office_addr_1": "358-3, Hapjeong-dong, Mapo-gu, Seoul",
+        "office_addr_2": "5F, Seojeong Building",
+        "phone_title": "Phone",
+        "phone_value": "010-6720-0007",
+        "email_title": "Email",
+        "email_value": "min@stealthinteractive.co.kr",
+        "map_hint": "5-minute walk from Hapjeong Station Exit 7"
+    },
+    "consultation": {
+        "badge": "Contact Us",
+        "title": "Consult Now",
+        "desc": "Experts in each field are standing by for your project. Please feel free to contact us anytime if you have any questions.",
+        "planning_title": "Planning/Sales",
+        "planning_desc": "Initial project consultation and quote inquiries",
+        "planning_phone": "010-6720-0007",
+        "dev_title": "Development",
+        "dev_desc": "Technical collaboration and development process inquiries",
+        "dev_phone": "010-2798-1801",
+        "call_button": "Call Now"
+    },
+    "quote": {
+        "step1": {
+            "step_label": "Step 01 / 03",
+            "title": "Select Project Type",
+            "progress": "33% Complete",
+            "hero_title": "What project are you planning?",
+            "hero_desc": "Please select the type closest to the service you are preparing. A customized quotation process will proceed according to the selected type.",
+            "next_button": "Next Step",
+            "later_button": "Continue Later"
+        },
+        "step2": {
+            "step_label": "Step 02 / 03",
+            "title": "Project Details",
+            "progress": "50% Complete",
+            "budget_title": "Please select an estimated budget range",
+            "budget_1": "Under 10 million KRW",
+            "budget_2": "10 million ~ 30 million KRW",
+            "budget_3": "30 million ~ 50 million KRW",
+            "budget_4": "Over 50 million KRW",
+            "timeline_title": "What is your desired development period?",
+            "timeline_1_label": "Within 1 month",
+            "timeline_1_sub": "Rapid Development",
+            "timeline_2_label": "2~4 months",
+            "timeline_2_sub": "Standard Period",
+            "timeline_3_label": "Over 4 months",
+            "timeline_3_sub": "Large Scale Project",
+            "requirements_title": "Please write down any additional requirements or questions",
+            "requirements_placeholder": "Example: Please freely write down the core features of the project, benchmarking services you want to refer to, preferred design mood, etc.",
+            "prev_button": "Previous Step",
+            "next_button": "Next Step (3/3)",
+            "disclaimer": "The information entered will be used only for review for partnership establishment."
+        },
+        "step3": {
+            "step_label": "STEP 3",
+            "title": "Final Step",
+            "progress": "100%",
+            "hero_title": "Please leave your contact information",
+            "hero_desc": "A dedicated manager will contact you based on the information provided.",
+            "label_name": "Name",
+            "placeholder_name": "Please enter your name",
+            "label_company": "Company Name",
+            "placeholder_company": "Allmake (Name if individual)",
+            "label_email": "Email Address",
+            "placeholder_email": "example@company.com",
+            "label_phone": "Phone Number",
+            "placeholder_phone": "010-0000-0000",
+            "privacy_agree": "(Required) I agree to the collection and use of personal information.",
+            "privacy_view": "View Terms",
+            "submit_button": "Submit",
+            "secure_msg": "The information entered is safely protected.",
+            "prev_button": "Return to Previous Step",
+            "modal_close": "Confirm",
+            "modal_title": "Terms of Service",
+            "success_alert": "Your quote inquiry has been successfully received.\\nA manager will check and contact you quickly.",
+            "fail_alert": "An error occurred during submission.",
+            "error_alert": "Failed to connect to server.",
+            "privacy_policy_content": "1. Purpose of Collection and Use of Personal Information\nSTEALTH collects minimal personal information for customer inquiries and service provision.\n\n2. Items of Personal Information Collected\n- Required: Name, Email, Phone Number, Company Name\n- Information generated during service use: Access logs, cookies, access IP information, etc.\n\n3. Retention and Use Period of Personal Information\nPersonal information of users is destroyed without delay once the purpose of collection and use is achieved. However, if retention is required by relevant laws, it is retained for a certain period.\n\n4. Right to Refuse Consent\nYou have the right to refuse consent to the collection and use of personal information. However, if you refuse consent, there may be restrictions on counseling and service use.",
+            "terms_service_content": "Article 1 (Purpose)\nThe purpose of these Terms is to prescribe the terms and conditions and procedures for using the website and related services provided by STEALTH.\n\nArticle 2 (Effect and Change of Terms)\n1. These Terms become effective by posting on the service screen or by notifying the user by other means.\n2. STEALTH may revise these Terms if necessary to the extent that it does not violate relevant laws.\n\nArticle 3 (Use of Service)\n1. Users must comply with these Terms and relevant laws.\n2. STEALTH does its best to provide stable service, but may temporarily suspend all or part of the service if necessary, such as system maintenance.\n\nArticle 4 (Disclaimer)\nSTEALTH is not responsible for damages caused by force majeure such as natural disasters or service maintenance."
+        },
+        "types": {
+            "web_title": "Web Service",
+            "web_desc": "Browser-based services such as landing pages, corporate websites, and management systems",
+            "app_title": "Mobile App",
+            "app_desc": "Android, iOS native app and hybrid app development, store registration support",
+            "ai_title": "AI Solution",
+            "ai_desc": "LLM (ChatGPT) integration, data automation, machine learning-based custom model building",
+            "blockchain_title": "Blockchain",
+            "blockchain_desc": "Smart contracts, Web3 wallet integration and token economy design"
+        }
+    },
+    "home": {
+        "hero": {
+            "badge": "Next Gen Software Partner",
+            "title_prefix": "STEALTH:",
+            "title_highlight": "Digital Innovation",
+            "title_suffix": "Building the Future of",
+            "desc": "We are the optimal partner leading corporate innovation and growth with AI, Blockchain, and UI/UX solutions.",
+            "cta_quote": "Get a Quote",
+            "cta_portfolio": "View Portfolio"
+        },
+        "stats": {
+            "projects": "Completed Projects",
+            "experts": "Tech Experts",
+            "satisfaction": "Customer Satisfaction"
+        },
+        "services": {
+            "badge": "How we can help",
+            "title": "Our Core Services",
+            "ai_title": "AI & Data Solutions",
+            "ai_desc": "Next-generation solutions centered on AI modeling, LLM adoption, and data analysis for business intelligence.",
+            "web_title": "Web Development",
+            "web_desc": "Building custom web applications based on the latest frameworks considering performance and scalability.",
+            "mobile_title": "Mobile Apps",
+            "mobile_desc": "Providing high-performance native and cross-platform mobile experiences for iOS and Android.",
+            "blockchain_title": "Blockchain Solutions",
+            "blockchain_desc": "Expert technology for smart contracts, DApps, and seamless wallet integration for the Web3 era."
+        },
+        "cta": {
+            "title": "Ready to Start Your Digital Journey?",
+            "desc": "Turn your ambitious ideas into world-class digital reality with STEALTH.",
+            "button": "Consult Now"
+        }
+    },
+    "portfolio_page": {
+        "badge": "Success Stories & Projects",
+        "title_prefix": "Our",
+        "title_highlight": "Portfolio",
+        "desc": "As a partner for ambitious brands, we lead digital innovation through cutting-edge technology and human-centered design.",
+        "categories": {
+            "all": "All",
+            "web": "Web",
+            "mobile": "Mobile",
+            "blockchain": "Blockchain",
+            "uiux": "UI/UX"
+        },
+        "items": {
+            "2": {
+                "title": "Samsung Electronics Maestro AI Service",
+                "desc": "Samsung Electronics integrated AI solution platform for next-generation service interworking and intelligent data processing based on AI."
+            },
+            "3": {
+                "title": "Mobis Proactive AI Simulator",
+                "desc": "Hyundai Mobis AI simulation platform that proposes and tests proactive scenarios based on real-time vehicle status data."
+            },
+            "4": {
+                "title": "Smart Logistics Platform Construction & Operation",
+                "desc": "Visibility-oriented enterprise smart logistics integrated management platform supporting real-time logistics tracking, inventory management, and transport optimization."
+            },
+            "5": {
+                "title": "Canon Korea MPS System Development",
+                "desc": "Integrated MPS (Managed Print Service) system for printer and MFP management. Provides real-time monitoring, automatic consumable management, and efficient printing environment."
+            },
+            "6": {
+                "title": "China Local Influencer Auto-Matching Platform",
+                "desc": "Marketing platform connecting Chinese Xiaohongshu influencers and brands with AI-based matching. Supports efficient entry into the Chinese market with 100% online process."
+            },
+            "7": {
+                "title": "AI Subtitle Generation Platform",
+                "desc": "Intelligent content production support platform that automatically generates and edits subtitles using voice recognition technology."
+            },
+            "8": {
+                "title": "Children's Golf Game UI&UX",
+                "desc": "Intuitive and fun golf game interface design for children. Provides motion recognition-based character selection and intuitive gameplay experience."
+            },
+            "9": {
+                "title": "RMS Platform CITY EARTH Control System",
+                "desc": "Intelligent service robot integrated control platform for urban infrastructure and building management. Provides real-time robot status monitoring, job scheduling, and data analysis dashboard."
+            },
+            "10": {
+                "title": "CJ E&M BDP System Improvement",
+                "desc": "User interface and data visualization improvement of Entertainment Big Data Platform (BDP). Enhanced data query speed and user-centric simulation functions."
+            },
+            "11": {
+                "title": "CultureIt Game Music Production Platform",
+                "desc": "Web-based DAW (Digital Audio Workstation) system where users can easily produce and edit game music. Provides note editing, virtual instrument integration, and real-time statistics."
+            },
+            "12": {
+                "title": "LG Uplus U2 Drive Development",
+                "desc": "Enterprise cloud storage and collaboration platform. Provides large file management, sharing permission setting, team collaboration drive functions with a modern interface and efficient file management system."
+            },
+            "13": {
+                "title": "PCN FISS System Development",
+                "desc": "Intelligent facility management system (FISS) for Busan Metropolitan City facilities and track management. Provides map-based real-time location tracking, facility detailed information inquiry, and maintenance management functions."
+            },
+            "14": {
+                "title": "AB Works Golf Swing 3D Analysis Development",
+                "desc": "AI-based 3D golf swing analysis system. Analyzes user's swing video in real-time to provide professional data such as posture correction, distance measurement, and club path optimization."
+            },
+            "15": {
+                "title": "KT AICE Platform UI, UX Improvement",
+                "desc": "User experience (UX) and interface (UI) advancement of KT AICE certification education and test platform for AI talent cultivation. Design improvement for learning convenience and professionalism enhancement."
+            },
+            "16": {
+                "title": "KT Integrated Advertising Platform Development",
+                "desc": "Development of KT's integrated advertising platform that manages various advertising media and provides optimized advertising effects. Provides user-customized targeting and real-time performance analysis functions."
+            },
+            "17": {
+                "title": "LG Uplus Collaboration Platform Service",
+                "desc": "Development of LG Uplus collaboration platform for smooth team collaboration and project management. Provides real-time document sharing, video conferencing, and work progress tracking functions."
+            },
+            "18": {
+                "title": "Obigo Infotainment Cabin Service Development",
+                "desc": "Cabin service development for in-vehicle infotainment systems. Enhances user experience by providing personalized content, entertainment, and convenience features."
+            },
+            "19": {
+                "title": "Blockchain-based Game Service",
+                "desc": "Next-generation Web3 gaming platform providing transparent in-game asset ownership preservation and fair rewards."
+            }
+        }
+    },
+    "footer": {
+        "tagline": "Leading Partner for Digital Innovation",
+        "description": "We maximize business value with cutting-edge technology and creative design.",
+        "company_info": "Company Info",
+        "address_label": "Address",
+        "address_value": "123 Teheran-ro, Gangnam-gu, Seoul",
+        "phone_label": "Phone",
+        "email_label": "Email",
+        "services": "Services",
+        "web_dev": "Web Development",
+        "mobile_app": "Mobile App",
+        "blockchain": "Blockchain",
+        "ui_ux": "UI/UX Design",
+        "legal": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "rights": "All rights reserved."
+    }
+}

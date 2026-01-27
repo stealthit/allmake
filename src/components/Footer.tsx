@@ -2,7 +2,12 @@
 
 import { useState } from "react";
 
-export default function Footer() {
+interface FooterProps {
+    dictionary: any;
+    lang: string;
+}
+
+export default function Footer({ dictionary, lang }: FooterProps) {
     const [modalContent, setModalContent] = useState<{ title: string; content: string } | null>(null);
 
     const privacyPolicy = `
@@ -45,7 +50,7 @@ STEALTH는 천재지변, 서비스 점검 등 불가항력적인 사유로 발�
                     </div>
                     <span className="text-xl font-bold tracking-tight">STEALTH</span>
                 </div>
-                <p className="text-gray-500 text-sm">© 2026 STEALTH. All rights reserved.</p>
+                <p className="text-gray-500 text-sm">© 2026 STEALTH. {dictionary.footer.rights}</p>
                 <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-6 gap-y-4">
                     <a
                         href="/files/company_profile.pdf"
@@ -53,20 +58,20 @@ STEALTH는 천재지변, 서비스 점검 등 불가항력적인 사유로 발�
                         className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-deep-charcoal dark:text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-primary hover:text-white transition-all group"
                     >
                         <span className="material-symbols-outlined text-lg group-hover:animate-bounce">download</span>
-                        회사소개서 다운로드
+                        {lang === "ko" ? "회사소개서 다운로드" : "Download Profile"}
                     </a>
                     <div className="flex gap-6">
                         <button
-                            onClick={() => setModalContent({ title: "개인정보 처리방침", content: privacyPolicy })}
+                            onClick={() => setModalContent({ title: dictionary.footer.privacy, content: privacyPolicy })}
                             className="text-gray-400 hover:text-primary transition-colors text-sm"
                         >
-                            개인정보 처리방침
+                            {dictionary.footer.privacy}
                         </button>
                         <button
-                            onClick={() => setModalContent({ title: "이용 약관", content: termsOfService })}
+                            onClick={() => setModalContent({ title: dictionary.footer.terms, content: termsOfService })}
                             className="text-gray-400 hover:text-primary transition-colors text-sm"
                         >
-                            이용 약관
+                            {dictionary.footer.terms}
                         </button>
                     </div>
                 </div>
@@ -99,7 +104,7 @@ STEALTH는 천재지변, 서비스 점검 등 불가항력적인 사유로 발�
                                 onClick={() => setModalContent(null)}
                                 className="bg-primary text-white px-8 py-3 rounded-xl font-bold hover:brightness-95 transition-all"
                             >
-                                확인
+                                {lang === "ko" ? "확인" : "Close"}
                             </button>
                         </div>
                     </div>

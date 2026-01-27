@@ -1,20 +1,16 @@
-
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
-import Header from "@/components/Header";
-import FloatingButton from "@/components/FloatingButton";
 
-export default function QuoteStep1() {
+export default function QuoteStep1Client({ dictionary, lang }: { dictionary: any, lang: string }) {
     const router = useRouter();
     const [selectedType, setSelectedType] = useState<string | null>(null);
 
     const handleNext = () => {
         if (selectedType) {
             sessionStorage.setItem("quote_type", selectedType);
-            router.push("/quote/step2");
+            router.push(`/${lang}/quote/step2`);
         }
     };
 
@@ -26,44 +22,43 @@ export default function QuoteStep1() {
         {
             id: "web",
             icon: "desktop_windows",
-            title: "웹 서비스",
-            desc: "랜딩페이지, 기업 홈페이지, 관리 시스템 등 브라우저 기반의 서비스",
+            title: dictionary.quote.types.web_title,
+            desc: dictionary.quote.types.web_desc,
         },
         {
             id: "app",
             icon: "smartphone",
-            title: "모바일 앱",
-            desc: "Android, iOS 네이티브 앱 및 하이브리드 앱 개발, 스토어 등록 지원",
+            title: dictionary.quote.types.app_title,
+            desc: dictionary.quote.types.app_desc,
         },
         {
             id: "ai",
             icon: "neurology",
-            title: "AI 솔루션",
-            desc: "LLM(ChatGPT) 연동, 데이터 자동화, 머신러닝 기반 커스텀 모델 구축",
+            title: dictionary.quote.types.ai_title,
+            desc: dictionary.quote.types.ai_desc,
         },
         {
             id: "blockchain",
             icon: "currency_bitcoin",
-            title: "블록체인",
-            desc: "스마트 컨트랙트, Web3 지갑 연동 및 토큰 이코노미 설계",
+            title: dictionary.quote.types.blockchain_title,
+            desc: dictionary.quote.types.blockchain_desc,
         },
     ];
 
     return (
         <>
-            <Header />
-            <main className="max-w-7xl mx-auto px-6 pt-16 pb-24">
+            <div className="max-w-7xl mx-auto px-6 pt-16 pb-24">
                 <div className="max-w-4xl mx-auto mb-16">
                     <div className="flex justify-between items-end mb-4">
                         <div className="flex flex-col">
                             <span className="text-primary font-bold text-sm uppercase tracking-widest mb-1">
-                                Step 01 / 03
+                                {dictionary.quote.step1.step_label}
                             </span>
                             <h3 className="text-xl font-bold text-deep-charcoal dark:text-white">
-                                프로젝트 유형 선택
+                                {dictionary.quote.step1.title}
                             </h3>
                         </div>
-                        <span className="text-gray-400 text-sm font-medium">33% 완료</span>
+                        <span className="text-gray-400 text-sm font-medium">{dictionary.quote.step1.progress}</span>
                     </div>
                     <div className="h-2 w-full bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
                         <div className="h-full bg-primary w-1/3 transition-all duration-500"></div>
@@ -72,11 +67,10 @@ export default function QuoteStep1() {
 
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-black mb-4 tracking-tight text-deep-charcoal dark:text-white">
-                        어떤 프로젝트를 계획 중이신가요?
+                        {dictionary.quote.step1.hero_title}
                     </h2>
                     <p className="text-gray-500 text-lg leading-relaxed max-w-2xl mx-auto">
-                        준비하시는 서비스에 가장 가까운 유형을 선택해주세요. <br className="hidden md:block" />
-                        선택하신 유형에 맞춰 맞춤형 견적 프로세스가 진행됩니다.
+                        {dictionary.quote.step1.hero_desc}
                     </p>
                 </div>
 
@@ -129,17 +123,16 @@ export default function QuoteStep1() {
                         className="w-full max-w-md py-5 bg-primary text-white text-xl font-bold rounded-2xl hover:bg-[#00c2a5] hover:-translate-y-1 transition-all btn-shadow disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
                         disabled={!selectedType}
                     >
-                        다음 단계로 이동하기
+                        {dictionary.quote.step1.next_button}
                     </button>
                     <button
                         onClick={handleLater}
                         className="text-gray-400 font-medium hover:text-gray-600 dark:hover:text-gray-300 border-b border-transparent hover:border-gray-300 transition-all text-base"
                     >
-                        나중에 계속하기
+                        {dictionary.quote.step1.later_button}
                     </button>
                 </div>
-            </main>
-            <FloatingButton />
+            </div>
         </>
     );
 }

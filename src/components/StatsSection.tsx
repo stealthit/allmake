@@ -1,4 +1,4 @@
-export default function StatsSection() {
+export default function StatsSection({ dictionary }: { dictionary: any }) {
     return (
         <section className="bg-white dark:bg-background-dark/50 py-16 border-y border-gray-100 dark:border-gray-800">
             <div className="max-w-7xl mx-auto px-6">
@@ -9,7 +9,7 @@ export default function StatsSection() {
                         </div>
                         <div>
                             <p className="text-4xl font-black text-white mb-1">100+</p>
-                            <p className="text-sm font-medium text-gray-400 uppercase tracking-widest">완료된 프로젝트</p>
+                            <p className="text-sm font-medium text-gray-400 uppercase tracking-widest">{dictionary.home.stats.projects}</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-6 p-8 rounded-2xl bg-deep-charcoal border border-gray-100 dark:border-gray-700">
@@ -18,7 +18,7 @@ export default function StatsSection() {
                         </div>
                         <div>
                             <p className="text-4xl font-black text-white mb-1">10+</p>
-                            <p className="text-sm font-medium text-gray-400 uppercase tracking-widest">기술 전문가</p>
+                            <p className="text-sm font-medium text-gray-400 uppercase tracking-widest">{dictionary.home.stats.experts}</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-6 p-8 rounded-2xl bg-deep-charcoal border border-gray-100 dark:border-gray-700">
@@ -27,7 +27,7 @@ export default function StatsSection() {
                         </div>
                         <div>
                             <p className="text-4xl font-black text-white mb-1">100%</p>
-                            <p className="text-sm font-medium text-gray-400 uppercase tracking-widest">고객 만족도</p>
+                            <p className="text-sm font-medium text-gray-400 uppercase tracking-widest">{dictionary.home.stats.satisfaction}</p>
                         </div>
                     </div>
                 </div>
