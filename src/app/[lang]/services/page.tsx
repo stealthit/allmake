@@ -2,8 +2,9 @@ import { getDictionary } from "../../../get-dictionary";
 import { Locale } from "../../../../i18n-config";
 import Link from "next/link";
 
-export default async function ServicesPage({ params }: { params: { lang: Locale } }) {
-    const dictionary = await getDictionary(params.lang);
+export default async function ServicesPage({ params }: { params: Promise<{ lang: string }> }) {
+    const { lang } = await params;
+    const dictionary = await getDictionary(lang as Locale);
 
     return (
         <>
@@ -226,10 +227,10 @@ export default async function ServicesPage({ params }: { params: { lang: Locale 
                         <h2 className="text-3xl md:text-5xl font-black text-white mb-6">{dictionary.services.cta_title}</h2>
                         <p className="text-gray-400 text-lg mb-12 max-w-2xl mx-auto">{dictionary.services.cta_desc}</p>
                         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-                            <Link href={`/${params.lang}/consultation`} className="bg-primary text-deep-charcoal px-10 py-5 rounded-2xl font-bold text-xl hover:bg-white transition-colors w-full md:w-auto text-center">
+                            <Link href={`/${lang}/consultation`} className="bg-primary text-deep-charcoal px-10 py-5 rounded-2xl font-bold text-xl hover:bg-white transition-colors w-full md:w-auto text-center">
                                 {dictionary.services.cta_button_consult}
                             </Link>
-                            <Link href={`/${params.lang}/portfolio`} className="border-2 border-gray-600 text-white px-10 py-5 rounded-2xl font-bold text-xl hover:border-primary transition-colors w-full md:w-auto text-center">
+                            <Link href={`/${lang}/portfolio`} className="border-2 border-gray-600 text-white px-10 py-5 rounded-2xl font-bold text-xl hover:border-primary transition-colors w-full md:w-auto text-center">
                                 {dictionary.services.cta_button_portfolio}
                             </Link>
                         </div>
