@@ -1,8 +1,9 @@
 import { getDictionary } from "../../../get-dictionary";
 import { Locale } from "../../../../i18n-config";
 
-export default async function ConsultationPage({ params }: { params: { lang: Locale } }) {
-    const dictionary = await getDictionary(params.lang);
+export default async function ConsultationPage({ params }: { params: Promise<{ lang: string }> }) {
+    const { lang } = await params;
+    const dictionary = await getDictionary(lang as Locale);
 
     return (
         <>
