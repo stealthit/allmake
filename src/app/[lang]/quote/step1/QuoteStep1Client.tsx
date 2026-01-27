@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function QuoteStep1Client({ dictionary, lang }: { dictionary: any, lang: string }) {
@@ -12,10 +13,6 @@ export default function QuoteStep1Client({ dictionary, lang }: { dictionary: any
             sessionStorage.setItem("quote_type", selectedType);
             router.push(`/${lang}/quote/step2`);
         }
-    };
-
-    const handleLater = () => {
-        router.back();
     };
 
     const projectTypes = [
@@ -125,14 +122,14 @@ export default function QuoteStep1Client({ dictionary, lang }: { dictionary: any
                     >
                         {dictionary.quote.step1.next_button}
                     </button>
-                    <button
-                        onClick={handleLater}
+                    <Link
+                        href={`/${lang}`}
                         className="text-gray-400 font-medium hover:text-gray-600 dark:hover:text-gray-300 border-b border-transparent hover:border-gray-300 transition-all text-base"
                     >
                         {dictionary.quote.step1.later_button}
-                    </button>
+                    </Link>
                 </div>
-            </div>
+            </div >
         </>
     );
 }
