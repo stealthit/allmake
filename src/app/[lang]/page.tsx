@@ -14,7 +14,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
   return (
     <>
-      <HeroSection dictionary={dictionary} />
+      <HeroSection dictionary={dictionary} lang={lang} />
       <StatsSection dictionary={dictionary} />
       <ServicesSection dictionary={dictionary} />
       <CtaSection dictionary={dictionary} />

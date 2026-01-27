@@ -1,6 +1,8 @@
 import Link from "next/link";
 
-export default function HeroSection({ dictionary }: { dictionary: any }) {
+export default function HeroSection({ dictionary, lang }: { dictionary: any; lang?: string }) {
+    const isEn = lang === "en";
+
     return (
         <section className="relative overflow-hidden pt-16 pb-24 md:pt-32 md:pb-40">
             <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
@@ -12,8 +14,8 @@ export default function HeroSection({ dictionary }: { dictionary: any }) {
                         </span>
                         {dictionary.home.hero.badge}
                     </div>
-                    <h1 className="text-5xl md:text-7xl font-black text-deep-charcoal dark:text-white leading-[1.1] mb-8">
-                        {dictionary.home.hero.title_prefix} <span className="text-primary">{dictionary.home.hero.title_highlight}</span>{dictionary.home.hero.title_suffix}
+                    <h1 className={`font-black text-deep-charcoal dark:text-white leading-[1.1] mb-8 ${isEn ? "text-4xl md:text-6xl" : "text-5xl md:text-7xl"}`}>
+                        {dictionary.home.hero.title_prefix} <span className="text-primary">{dictionary.home.hero.title_highlight}</span> {dictionary.home.hero.title_suffix}
                     </h1>
                     <p className="text-lg text-gray-500 dark:text-gray-400 mb-10 max-w-lg leading-relaxed">
                         {dictionary.home.hero.desc}
