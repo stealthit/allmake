@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00d1b2;
+  --color-background-light: #f8f9fa;
+  --color-background-dark: #0f2320;
+  --color-deep-charcoal: #2D3436;
+  --font-display: var(--font-display);
+  --font-sans: var(--font-noto-sans-kr);
+}
+
+@layer utilities {
+  .mint-shadow {
+    box-shadow: 0 10px 30px -10px rgba(0, 209, 178, 0.2);
+  }
+
+  .card-hover {
+    transition: all 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.05);
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+
+  .timeline-line {
+    width: 2px;
+    background: linear-gradient(to bottom, #00d1b2 0%, #e5e7eb 100%);
+  }
+
+  .form-checkbox:checked {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuD8uauCWB78WaPc_VXRDFhHi5GJzRjScy_3_F_XOewvgUO8u6tlbSotilJmPZFUqc216GkH4BImovZN-87iv57aqgdRFgJ3btXHQNC4kf99sWhVXMxoHMtZ0TkvA4TA-XsY3oJq6BktbeXrAkIJYccMKSeD5-t1krpcPmNZU6ZlIr5V3NMqbALk0VqhQ-h14gZKBMc6EzCiXf5xmLLBoGVPlIY-t2_scs0toMxdh6I4EM7zmgQM-3hGktKexLgczHISL2ACL0tUIbA);
+  }
+
+  .card-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  }
+
+  .card-shadow-selected {
+    box-shadow: 0 10px 15px -3px rgba(0, 209, 178, 0.1), 0 4px 6px -2px rgba(0, 209, 178, 0.05);
+  }
+
+  .btn-shadow {
+    box-shadow: 0 10px 20px -5px rgba(0, 209, 178, 0.3);
+  }
+
+  .step-progress-bar {
+    height: 0.375rem;
+    width: 100%;
+    background-color: #e5e7eb;
+    border-radius: 9999px;
+    overflow: hidden;
+  }
+
+  .step-progress-fill {
+    height: 100%;
+    background-color: #00d1b2;
+    transition: all 0.5s ease;
+  }
+
+  .form-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #f3f4f6;
+    transition: all 0.3s ease;
+  }
+
+  @media (min-width: 768px) {
+    .form-card {
+      padding: 3rem;
+    }
+  }
+
+  .custom-radio:checked+label {
+    border-color: #00d1b2;
+    background-color: rgba(0, 209, 178, 0.05);
+    color: #00d1b2;
+  }
+
+  .custom-radio:checked+label .check-icon {
+    opacity: 1;
+  }
+
+  .custom-checkbox:checked {
+    background-color: #00d1b2;
+    border-color: #00d1b2;
+  }
+}
+
+:root {
+  --background: #f8f9fa;
+  --foreground: #2D3436;
+}
+
+.dark {
+  --background: #0f2320;
+  --foreground: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f2320;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
