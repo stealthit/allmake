@@ -4,7 +4,7 @@ import StatsSection from "@/components/StatsSection";
 import ServicesSection from "@/components/ServicesSection";
 import CtaSection from "@/components/CtaSection";
 import Footer from "@/components/Footer";
-import FloatingButton from "@/components/FloatingButton";
+
 import { getDictionary } from "../../get-dictionary";
 import { Locale } from "../../../i18n-config";
 

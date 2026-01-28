@@ -23,7 +23,7 @@ export default async function Layout({
             <Header dictionary={dictionary} lang={lang} />
             <main className="flex-grow">{children}</main>
             <Footer dictionary={dictionary} lang={lang} />
-            <FloatingButton />
+            <FloatingButton lang={lang} />
         </div>
     );
 }
