@@ -38,7 +38,7 @@ export default async function About({ params }: { params: Promise<{ lang: string
                                 <span className="material-symbols-outlined text-4xl">handshake</span>
                             </div>
                             <h4 className="text-2xl font-bold mb-4">{dictionary.about.value_trust_title}</h4>
-                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed">
+                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed break-keep">
                                 {dictionary.about.value_trust_desc_1}<br />
                                 {dictionary.about.value_trust_desc_2}
                             </p>
@@ -48,7 +48,7 @@ export default async function About({ params }: { params: Promise<{ lang: string
                                 <span className="material-symbols-outlined text-4xl">lightbulb</span>
                             </div>
                             <h4 className="text-2xl font-bold mb-4">{dictionary.about.value_innovation_title}</h4>
-                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed">
+                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed break-keep">
                                 {dictionary.about.value_innovation_desc_1}<br />
                                 {dictionary.about.value_innovation_desc_2}
                             </p>
@@ -58,7 +58,7 @@ export default async function About({ params }: { params: Promise<{ lang: string
                                 <span className="material-symbols-outlined text-4xl">trending_up</span>
                             </div>
                             <h4 className="text-2xl font-bold mb-4">{dictionary.about.value_growth_title}</h4>
-                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed">
+                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed break-keep">
                                 {dictionary.about.value_growth_desc_1}<br />
                                 {dictionary.about.value_growth_desc_2}
                             </p>
