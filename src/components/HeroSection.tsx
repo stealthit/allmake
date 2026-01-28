@@ -14,10 +14,10 @@ export default function HeroSection({ dictionary, lang }: { dictionary: any; lan
                         </span>
                         {dictionary.home.hero.badge}
                     </div>
-                    <h1 className={`font-black text-deep-charcoal dark:text-white leading-[1.1] mb-8 ${isEn ? "text-4xl md:text-6xl" : "text-5xl md:text-7xl"}`}>
-                        {dictionary.home.hero.title_prefix} <span className="text-primary">{dictionary.home.hero.title_highlight}</span> {dictionary.home.hero.title_suffix}
+                    <h1 className={`font-black text-deep-charcoal dark:text-white leading-[1.1] mb-8 break-keep ${isEn ? "text-4xl md:text-6xl" : "text-5xl md:text-7xl"}`}>
+                        {dictionary.home.hero.title_prefix} <span className="text-primary">{dictionary.home.hero.title_highlight}</span>{dictionary.home.hero.title_suffix}
                     </h1>
-                    <p className="text-lg text-gray-500 dark:text-gray-400 mb-10 max-w-lg leading-relaxed">
+                    <p className="text-lg text-gray-500 dark:text-gray-400 mb-10 max-w-lg leading-relaxed break-keep">
                         {dictionary.home.hero.desc}
                     </p>
                     <div className="flex flex-wrap gap-4">
