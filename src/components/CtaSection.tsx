@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Link from "next/link";
 
-export default function CtaSection({ dictionary }: { dictionary: any }) {
+export default function CtaSection({ dictionary }: { dictionary: Record<string, any> }) {
     return (
         <section className="mb-24 px-6">
             <div className="max-w-7xl mx-auto bg-deep-charcoal dark:bg-gray-900 rounded-[2.5rem] p-12 md:p-24 relative overflow-hidden">

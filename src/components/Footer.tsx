@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState } from "react";
 
 interface FooterProps {
-    dictionary: any;
+    dictionary: Record<string, any>;
     lang: string;
 }
 

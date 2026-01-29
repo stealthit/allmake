@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-export default function QuoteStep2Client({ dictionary, lang }: { dictionary: any, lang: string }) {
+export default function QuoteStep2Client({ dictionary, lang }: { dictionary: Record<string, any>, lang: string }) {
     const router = useRouter();
     const [formData, setFormData] = useState({
         budget: "",

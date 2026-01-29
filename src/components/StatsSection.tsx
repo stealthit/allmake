@@ -1,4 +1,5 @@
-export default function StatsSection({ dictionary }: { dictionary: any }) {
+/* eslint-disable @typescript-eslint/no-explicit-any */
+export default function StatsSection({ dictionary }: { dictionary: Record<string, any> }) {
     return (
         <section className="bg-white dark:bg-background-dark/50 py-16 border-y border-gray-100 dark:border-gray-800">
             <div className="max-w-7xl mx-auto px-6">

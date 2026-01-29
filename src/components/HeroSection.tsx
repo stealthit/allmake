@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Link from "next/link";
 
-export default function HeroSection({ dictionary, lang }: { dictionary: any; lang?: string }) {
+export default function HeroSection({ dictionary, lang }: { dictionary: Record<string, any>; lang?: string }) {
     const isEn = lang === "en";
 
     return (

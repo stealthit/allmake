@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState } from "react";
 import Link from "next/link";
 
-export default function PortfolioClient({ dictionary, lang }: { dictionary: any, lang: string }) {
+export default function PortfolioClient({ dictionary, lang }: { dictionary: Record<string, any>, lang: string }) {
     const [activeCategory, setActiveCategory] = useState("All");
 
     const categories = [

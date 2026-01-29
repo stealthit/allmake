@@ -105,6 +105,7 @@ export async function POST(request: Request) {
                 { message: 'Inquiry sent successfully', messageId: info.messageId },
                 { status: 200 }
             );
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } catch (mailError: any) {
             console.error('❌ [SMTP Send Error]:', mailError.message);
 
@@ -123,6 +124,7 @@ export async function POST(request: Request) {
                         { message: 'Inquiry sent (fallback)', warning: 'Primary delivery failed' },
                         { status: 200 }
                     );
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 } catch (fallbackError: any) {
                     console.error('❌ [Fallback Failed]:', fallbackError.message);
                 }

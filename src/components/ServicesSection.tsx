@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState } from "react";
@@ -9,7 +10,7 @@ interface Service {
     description: string;
 }
 
-export default function ServicesSection({ dictionary }: { dictionary: any }) {
+export default function ServicesSection({ dictionary }: { dictionary: Record<string, any> }) {
     const [activeId, setActiveId] = useState<string | null>(null);
 
     const services: Service[] = [
