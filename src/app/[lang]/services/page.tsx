@@ -59,7 +59,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                         </div>
                         <div className="order-1 md:order-2">
                             <div className="rounded-3xl overflow-hidden shadow-xl bg-gradient-to-br from-primary/10 to-transparent p-1">
-                                <img alt="AI and Data Solutions" className="w-full h-auto object-cover rounded-[1.4rem]" src="/images/service-web.png" />
+                                <img alt="AI and Data Solutions" className="w-full h-[300px] md:h-[400px] object-cover rounded-[1.4rem]" src="/images/service-ai-solutions.png" />
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                         </div>
                         <div className="order-1 md:order-2">
                             <div className="rounded-3xl overflow-hidden shadow-xl">
-                                <img alt="Web Development Interface" className="w-full h-auto object-cover" src="/images/service-web-development.png" />
+                                <img alt="Web Development Interface" className="w-full h-[300px] md:h-[400px] object-cover" src="/images/service-web-development.png" />
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                         <div className="grid md:grid-cols-2 gap-16 items-center">
                             <div>
                                 <div className="rounded-3xl overflow-hidden shadow-xl">
-                                    <img alt="Mobile App Development" className="w-full h-[400px] object-cover" src="/images/service-mobile.png" />
+                                    <img alt="Mobile App Development" className="w-full h-[300px] md:h-[400px] object-cover" src="/images/service-mobile.png" />
                                 </div>
                             </div>
                             <div>
@@ -173,7 +173,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                         </div>
                         <div className="order-1 md:order-2">
                             <div className="rounded-3xl overflow-hidden shadow-xl">
-                                <img alt="UI/UX Design Process" className="w-full h-[400px] object-cover" src="/images/service-uiux.png" />
+                                <img alt="UI/UX Design Process" className="w-full h-[300px] md:h-[400px] object-cover" src="/images/service-uiux.png" />
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                         <div className="grid md:grid-cols-2 gap-16 items-center">
                             <div>
                                 <div className="rounded-3xl overflow-hidden shadow-xl border-4 border-primary/20">
-                                    <img alt="Blockchain Technology" className="w-full h-[400px] object-cover" src="/images/service-blockchain.png" />
+                                    <img alt="Blockchain Technology" className="w-full h-[300px] md:h-[400px] object-cover" src="/images/service-blockchain.png" />
                                 </div>
                             </div>
                             <div>
