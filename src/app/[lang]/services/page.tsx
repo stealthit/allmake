@@ -68,7 +68,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                 {/* Web Development */}
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="grid md:grid-cols-2 gap-16 items-center">
-                        <div className="order-2 md:order-1">
+                        <div className="order-2 md:order-2">
                             <div className="w-20 h-20 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8">
                                 <span className="material-symbols-outlined text-5xl">desktop_windows</span>
                             </div>
@@ -95,7 +95,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                                 </div>
                             </div>
                         </div>
-                        <div className="order-1 md:order-2">
+                        <div className="order-1 md:order-1">
                             <div className="rounded-3xl overflow-hidden shadow-xl">
                                 <img alt="Web Development Interface" className="w-full h-[300px] md:h-[400px] object-cover" src="/images/service-web-development.png" />
                             </div>
@@ -107,12 +107,12 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                 <div className="bg-white dark:bg-gray-800/30 py-24">
                     <div className="max-w-7xl mx-auto px-6">
                         <div className="grid md:grid-cols-2 gap-16 items-center">
-                            <div>
+                            <div className="order-1 md:order-2">
                                 <div className="rounded-3xl overflow-hidden shadow-xl">
                                     <img alt="Mobile App Development" className="w-full h-[300px] md:h-[400px] object-cover" src="/images/service-mobile.png" />
                                 </div>
                             </div>
-                            <div>
+                            <div className="order-2 md:order-1">
                                 <div className="w-20 h-20 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8">
                                     <span className="material-symbols-outlined text-5xl">smartphone</span>
                                 </div>
@@ -145,7 +145,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                 {/* UI/UX Design */}
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="grid md:grid-cols-2 gap-16 items-center">
-                        <div className="order-2 md:order-1">
+                        <div className="order-2 md:order-2">
                             <div className="w-20 h-20 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8">
                                 <span className="material-symbols-outlined text-5xl">palette</span>
                             </div>
@@ -171,7 +171,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                                 </div>
                             </div>
                         </div>
-                        <div className="order-1 md:order-2">
+                        <div className="order-1 md:order-1">
                             <div className="rounded-3xl overflow-hidden shadow-xl">
                                 <img alt="UI/UX Design Process" className="w-full h-[300px] md:h-[400px] object-cover" src="/images/service-uiux.png" />
                             </div>
@@ -183,25 +183,25 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                 <div className="bg-white dark:bg-gray-800/30 py-24">
                     <div className="max-w-7xl mx-auto px-6">
                         <div className="grid md:grid-cols-2 gap-16 items-center">
-                            <div>
-                                <div className="rounded-3xl overflow-hidden shadow-xl border-4 border-primary/20">
+                            <div className="order-1 md:order-2">
+                                <div className="rounded-3xl overflow-hidden shadow-xl">
                                     <img alt="Blockchain Technology" className="w-full h-[300px] md:h-[400px] object-cover" src="/images/service-blockchain.png" />
                                 </div>
                             </div>
-                            <div>
-                                <div className="w-20 h-20 bg-primary rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-primary/20">
-                                    <span className="material-symbols-outlined text-5xl">currency_bitcoin</span>
+                            <div className="order-2 md:order-1">
+                                <div className="w-20 h-20 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8">
+                                    <span className="material-symbols-outlined text-5xl">hub</span>
                                 </div>
-                                <h2 className="text-3xl font-extrabold mb-4 text-primary">{dictionary.services.blockchain_title}</h2>
+                                <h2 className="text-3xl font-extrabold mb-4 text-deep-charcoal dark:text-white">{dictionary.services.blockchain_title}</h2>
                                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
                                     {dictionary.services.blockchain_desc}
                                 </p>
                                 <div className="flex flex-wrap gap-2 mb-8">
-                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-primary/30 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Solidity</span>
-                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-primary/30 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Ethereum</span>
-                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-primary/30 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Web3.js</span>
-                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-primary/30 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Smart Contracts</span>
-                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-primary/30 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Hyperledger</span>
+                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Solidity</span>
+                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Ethereum</span>
+                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Web3.js</span>
+                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Smart Contracts</span>
+                                    <span className="px-3 py-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300">Hyperledger</span>
                                 </div>
                                 <div className="space-y-3">
                                     <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
