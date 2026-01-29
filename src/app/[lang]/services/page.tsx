@@ -97,7 +97,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                         </div>
                         <div className="order-1 md:order-2">
                             <div className="rounded-3xl overflow-hidden shadow-xl">
-                                <img alt="Web Development Interface" className="w-full h-auto object-cover" src="/images/service-web-development-v2.png" />
+                                <img alt="Web Development Interface" className="w-full h-auto object-cover" src="/images/service-web-development.png" />
                             </div>
                         </div>
                     </div>
