@@ -59,7 +59,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                         </div>
                         <div className="order-1 md:order-2">
                             <div className="rounded-3xl overflow-hidden shadow-xl bg-gradient-to-br from-primary/10 to-transparent p-1">
-                                <img alt="AI and Data Solutions" className="w-full h-[300px] md:h-[400px] object-cover rounded-[1.4rem]" src="/images/service-ai-solutions.png" />
+                                <img alt="AI and Data Solutions" className="w-full h-[300px] md:h-[400px] object-cover rounded-[1.4rem]" src="/images/service-ai-solutions-teal.png" />
                             </div>
                         </div>
                     </div>
@@ -190,7 +190,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                             </div>
                             <div className="order-2 md:order-1">
                                 <div className="w-20 h-20 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8">
-                                    <span className="material-symbols-outlined text-5xl">hub</span>
+                                    <span className="material-symbols-outlined text-5xl">currency_bitcoin</span>
                                 </div>
                                 <h2 className="text-3xl font-extrabold mb-4 text-deep-charcoal dark:text-white">{dictionary.services.blockchain_title}</h2>
                                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
