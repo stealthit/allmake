@@ -122,7 +122,7 @@ export default async function About({ params }: { params: Promise<{ lang: string
                     <div className="absolute top-0 right-0 w-1/3 h-full bg-primary/20 blur-[100px]"></div>
                     <div className="relative z-10 md:flex items-center justify-between gap-12">
                         <div className="flex-1 min-w-0">
-                            <h2 className="text-lg md:text-2xl lg:text-3xl font-black text-white mb-6 whitespace-nowrap overflow-hidden text-ellipsis">{dictionary.about.cta_title}</h2>
+                            <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-6 break-keep leading-tight">{dictionary.about.cta_title}</h2>
                             <p className="text-gray-400 text-lg mb-0">{dictionary.about.cta_desc}</p>
                         </div>
                         <div className="mt-10 md:mt-0 flex flex-col gap-4 flex-shrink-0">
