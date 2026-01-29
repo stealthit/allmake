@@ -70,6 +70,7 @@ export default async function RootLayout({
         className={`${plusJakartaSans.variable} ${notoSansKr.variable} antialiased font-sans`}
       >
         {children}
+        <Script type="text/javascript" src="//wcs.naver.net/wcslog.js" strategy="afterInteractive" />
         <Script
           id="naver-analytics"
           strategy="afterInteractive"
@@ -83,7 +84,6 @@ export default async function RootLayout({
             `,
           }}
         />
-        <Script type="text/javascript" src="//wcs.naver.net/wcslog.js" strategy="afterInteractive" />
         <SpeedInsights />
       </body>
     </html>
