@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Noto_Sans_KR } from "next/font/google";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import NaverAnalytics from "@/components/NaverAnalytics";
 import "./globals.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -71,19 +72,7 @@ export default async function RootLayout({
       >
         {children}
         <Script type="text/javascript" src="//wcs.naver.net/wcslog.js" strategy="afterInteractive" />
-        <Script
-          id="naver-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              if (!wcs_add) var wcs_add = {};
-              wcs_add["wa"] = "${process.env.NEXT_PUBLIC_NAVER_ANALYTICS_ID || "61943fc220ddf0"}";
-              if (window.wcs) {
-                wcs_do();
-              }
-            `,
-          }}
-        />
+        <NaverAnalytics />
         <SpeedInsights />
       </body>
     </html>
