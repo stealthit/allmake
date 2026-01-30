@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Noto_Sans_KR } from "next/font/google";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 import NaverAnalytics from "@/components/NaverAnalytics";
 import "./globals.css";
 
@@ -74,6 +75,7 @@ export default async function RootLayout({
         <Script type="text/javascript" src="//wcs.naver.net/wcslog.js" strategy="afterInteractive" />
         <NaverAnalytics />
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
