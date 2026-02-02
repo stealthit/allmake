@@ -286,6 +286,22 @@
             "22": {
                 "title": "Hyundai Rotem SRS Digital Maintenance Platform",
                 "desc": "Integrated platform for digital maintenance of Hyundai Rotem. Supports efficient operation of railway systems by providing core functions such as real-time device monitoring, fault diagnosis, and parts management."
+            },
+            "21": {
+                "title": "Golden Tree Investment Advisory Website",
+                "desc": "Your Financial LIFE Partner, Golden Tree BlackRock EMP Service. A financial platform offering intuitive investment portfolio management and customized asset design solutions."
+            },
+            "23": {
+                "title": "SeedGrow Web Page UI/UX Improvement",
+                "desc": "UI/UX renewal for global logistics platform SeedGrow to improve user experience. Usability enhanced through intuitive dashboards and optimization of purchasing agency processes."
+            },
+            "24": {
+                "title": "SeAH Steel Groupware Publishing",
+                "desc": "Efficient groupware publishing for SeAH Steel employees. Internet work efficiency increased through user-friendly interface and web standard compliance."
+            },
+            "25": {
+                "title": "TCC Steel HMI Factory Automation System",
+                "desc": "HMI (Human Machine Interface) control system for TCC Steel factory automation. Maximized production efficiency through real-time process monitoring and control functions."
             }
         }
     },
