@@ -38,7 +38,6 @@ export default function PortfolioClient({ dictionary, lang }: { dictionary: Reco
         { id: "16", category: "Web", categoryKey: "web", image: "/images/portfolio-kt-ad-platform.png" },
         { id: "17", category: "Web", categoryKey: "web", image: "/lg-uplus-collab.png" },
         { id: "18", category: "Web", categoryKey: "web", image: "/images/portfolio-obigo-infotainment-cabin-new.png" },
-        { id: "19", category: "Blockchain", categoryKey: "blockchain", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuABSmXZwpY-B8IZmhM7X7R7OP5IgzdBtjZrVsBAdnGTFsix6RFJaO2QIMD-nXA92PYTsX5PosBQL_suhEJI8Ag28qzWJ8k9xWlRsyzF2ivknKNCNfx7T6Fx0Og-JnJAAI0GlGzecdK3rAPkFP7RiGyNtSdki79RnLz4a5YDkEtB-SZzT3in8U8ykf28Nis2f00V-deBW9EOF4hw_TTQSvyou8Zrfur2J1sofvcyiebXiiFY03Z0UNoiwJ9eJMo_OfpiYXTBvD622Yg" },
     ];
 
     const filteredProjects = projects.filter(
