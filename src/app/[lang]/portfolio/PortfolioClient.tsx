@@ -25,6 +25,7 @@ export default function PortfolioClient({ dictionary, lang }: { dictionary: Reco
         { id: "8", category: "UI/UX", categoryKey: "uiux", image: "/images/portfolio-golf.png" },
         { id: "9", category: "Web", categoryKey: "web", image: "/images/portfolio-city-earth.png" },
         { id: "10", category: "Web", categoryKey: "web", image: "/images/portfolio-cj-bdp.png" },
+        { id: "22", category: "Web", categoryKey: "web", image: "/images/portfolio-hyundai-rotem-srs.png" },
         { id: "11", category: "Web", categoryKey: "web", image: "/images/portfolio-cultureit.png" },
         { id: "12", category: "Web", categoryKey: "web", image: "/images/portfolio-lguplus-u2.png" },
         { id: "13", category: "Web", categoryKey: "web", image: "/images/portfolio-pcn-fiss.png" },
