@@ -1,6 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Link from "next/link";
 
-export default function HeroSection() {
+export default function HeroSection({ dictionary, lang }: { dictionary: Record<string, any>; lang?: string }) {
+    const isEn = lang === "en";
+
     return (
         <section className="relative overflow-hidden pt-16 pb-24 md:pt-32 md:pb-40">
             <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
@@ -10,20 +13,20 @@ export default function HeroSection() {
                             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                             <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
                         </span>
-                        차세대 소프트웨어 파트너
+                        {dictionary.home.hero.badge}
                     </div>
-                    <h1 className="text-5xl md:text-7xl font-black text-deep-charcoal dark:text-white leading-[1.1] mb-8">
-                        AllMake: <span className="text-primary">디지털 혁신</span>의 <br />미래를 건설하다
+                    <h1 className={`font-black text-deep-charcoal dark:text-white leading-[1.1] mb-8 break-keep ${isEn ? "text-4xl md:text-6xl" : "text-5xl md:text-7xl"}`}>
+                        {dictionary.home.hero.title_prefix} <span className="text-primary">{dictionary.home.hero.title_highlight}</span>{dictionary.home.hero.title_suffix}
                     </h1>
-                    <p className="text-lg text-gray-500 dark:text-gray-400 mb-10 max-w-lg leading-relaxed">
-                        현대적인 비즈니스 성장과 탁월함을 위한 맞춤형 <br className="hidden md:block" /> 소프트웨어 개발, 블록체인, 그리고 UI/UX 솔루션.
+                    <p className="text-lg text-gray-500 dark:text-gray-400 mb-10 max-w-lg leading-relaxed break-keep">
+                        {dictionary.home.hero.desc}
                     </p>
                     <div className="flex flex-wrap gap-4">
                         <Link href="/quote/step1" className="bg-primary hover:scale-105 transition-transform text-white px-8 py-4 rounded-xl font-bold text-lg mint-shadow">
-                            견적 문의하기
+                            {dictionary.home.hero.cta_quote}
                         </Link>
                         <Link href="/portfolio" className="border-2 border-gray-200 dark:border-gray-700 hover:border-primary transition-colors px-8 py-4 rounded-xl font-bold text-lg">
-                            포트폴리오 보기
+                            {dictionary.home.hero.cta_portfolio}
                         </Link>
                     </div>
                 </div>

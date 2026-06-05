@@ -1,23 +1,6 @@
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import StatsSection from "@/components/StatsSection";
-import ServicesSection from "@/components/ServicesSection";
-import CtaSection from "@/components/CtaSection";
-import Footer from "@/components/Footer";
-import FloatingButton from "@/components/FloatingButton";
+import { redirect } from "next/navigation";
+import { i18n } from "../../i18n-config";
 
-export default function Home() {
-  return (
-    <>
-      <Header />
-      <main>
-        <HeroSection />
-        <StatsSection />
-        <ServicesSection />
-        <CtaSection />
-      </main>
-      <Footer />
-      <FloatingButton />
-    </>
-  );
+export default function RootPage() {
+    redirect(`/${i18n.defaultLocale}`);
 }

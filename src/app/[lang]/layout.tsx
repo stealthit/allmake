@@ -1,0 +1,31 @@
+import { getDictionary } from "../../get-dictionary";
+import { Locale, i18n } from "../../../i18n-config";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import FloatingButton from "@/components/FloatingButton";
+import AddressNoticePopup from "@/components/AddressNoticePopup";
+
+export async function generateStaticParams() {
+    return i18n.locales.map((locale) => ({ lang: locale }));
+}
+
+export default async function Layout({
+    children,
+    params,
+}: {
+    children: React.ReactNode;
+    params: Promise<{ lang: string }>;
+}) {
+    const { lang } = await params;
+    const dictionary = await getDictionary(lang as Locale);
+
+    return (
+        <div className="min-h-screen flex flex-col bg-background-light dark:bg-background-dark text-deep-charcoal dark:text-white font-sans selection:bg-primary/30">
+            <Header dictionary={dictionary} lang={lang} />
+            <main className="flex-grow">{children}</main>
+            <Footer dictionary={dictionary} lang={lang} />
+            <FloatingButton lang={lang} />
+            <AddressNoticePopup lang={lang} />
+        </div>
+    );
+}
