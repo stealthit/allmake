@@ -3,7 +3,6 @@ import { Locale, i18n } from "../../../i18n-config";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButton from "@/components/FloatingButton";
-import AddressNoticePopup from "@/components/AddressNoticePopup";
 
 export async function generateStaticParams() {
     return i18n.locales.map((locale) => ({ lang: locale }));
@@ -25,7 +24,6 @@ export default async function Layout({
             <main className="flex-grow">{children}</main>
             <Footer dictionary={dictionary} lang={lang} />
             <FloatingButton lang={lang} />
-            <AddressNoticePopup lang={lang} />
         </div>
     );
 }
