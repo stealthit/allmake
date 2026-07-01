@@ -298,6 +298,14 @@
             "25": {
                 "title": "TCC Steel HMI Factory Automation System",
                 "desc": "HMI (Human Machine Interface) control system for TCC Steel factory automation. Maximized production efficiency through real-time process monitoring and control functions."
+            },
+            "26": {
+                "title": "Uzbekistan High-Speed Railway Maintenance System",
+                "desc": "A web-based railway maintenance and inspection information system designed to support systematic maintenance, preventive servicing, failure history, and materials management for Uzbekistan's modernized railway."
+            },
+            "27": {
+                "title": "Seoul Office of Education Dibeot Management System",
+                "desc": "A web-based device management platform providing device tracking, real-time AS request handling, status monitoring, and device manuals in support of the Seoul Metropolitan Office of Education's smart device initiative."
             }
         }
     },

@@ -16,6 +16,8 @@ export default function PortfolioClient({ dictionary, lang }: { dictionary: Reco
     ];
 
     const projects: { id: string; category: string; image: string; categoryKey: string }[] = [
+        { id: "27", category: "Web", categoryKey: "web", image: "/images/portfolio-dibeot.png" },
+        { id: "26", category: "Web", categoryKey: "web", image: "/images/portfolio-uzbekistan-railway.png" },
         { id: "2", category: "Web", categoryKey: "web", image: "/images/portfolio-samsung-ai.png" },
         { id: "3", category: "Mobile", categoryKey: "mobile", image: "/images/portfolio-mobis.png" },
         { id: "4", category: "UI/UX", categoryKey: "uiux", image: "/images/portfolio-logistics.png" },
