@@ -29,7 +29,7 @@ export default function AddressNoticePopup({ lang = "ko" }: AddressNoticePopupPr
     };
 
     const handleCopy = async () => {
-        const addressText = "경기도 고양시 덕양구 덕은동 692 지엚메트로시티한강 A동 304호";
+        const addressText = "고양시 덕양구 청초로 10 지엘메트로시티한강 A2동 304호";
         try {
             await navigator.clipboard.writeText(addressText);
             setCopied(true);
@@ -96,11 +96,11 @@ export default function AddressNoticePopup({ lang = "ko" }: AddressNoticePopupPr
                             <div className="text-sm font-bold text-deep-charcoal dark:text-white leading-relaxed">
                                 {isEn ? (
                                     <>
-                                        Room A-304, GL Metro City Hangang,<br />
-                                        692, Deogeun-dong, Deogyang-gu, Goyang-si, Gyeonggi-do
+                                        Room A2-304, GL Metro City Hangang,<br />
+                                        10, Cheongcho-ro, Deogyang-gu, Goyang-si, Gyeonggi-do
                                     </>
                                 ) : (
-                                    <>고양시 덕양구 덕은동 692<br />지엚메트로시티한강 A동 304호</>
+                                    <>고양시 덕양구 청초로 10<br />지엘메트로시티한강 A2동 304호</>
                                 )}
                             </div>
                             <button
