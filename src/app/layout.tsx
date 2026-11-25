@@ -21,9 +21,9 @@ const notoSansKr = Noto_Sans_KR({
 export const metadata: Metadata = {
   title: "스텔스인터렉티브 | STEALTH INTERACTIVE",
   icons: {
-    icon: [{ url: "/branding/stealth-mark.svg?v=20261125", type: "image/svg+xml" }],
-    shortcut: "/branding/stealth-icon-32.png?v=20261125",
-    apple: "/branding/stealth-icon-180.png?v=20261125",
+    icon: [{ url: "/branding/stealth-favicon.svg?v=20261125-dark", type: "image/svg+xml" }],
+    shortcut: "/branding/stealth-icon-32.png?v=20261125-dark",
+    apple: "/branding/stealth-icon-180.png?v=20261125-dark",
   },
   description: "Next-Gen Software Partner. Software development, Blockchain, and UI/UX solutions tailored for modern growth.",
   keywords: ["Software Development", "Blockchain", "UI/UX Design", "Web Development", "Mobile App", "STEALTH Interactive"],
