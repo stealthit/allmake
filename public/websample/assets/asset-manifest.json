@@ -1,0 +1,191 @@
+[
+  {
+    "file": "assets/office.webp",
+    "source": "https://images.unsplash.com/photo-1497366216548-37526070297c",
+    "page": null,
+    "subject": "기업 사무공간",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/building.webp",
+    "source": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+    "page": null,
+    "subject": "기업 외관",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/factory.webp",
+    "source": "https://images.unsplash.com/photo-1764835994645-3faa2c40f708",
+    "page": "https://unsplash.com/photos/industrial-machinery-in-a-large-factory-setting-mMgC9U15XR0",
+    "subject": "제조 설비",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/cafe.webp",
+    "source": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb",
+    "page": null,
+    "subject": "카페 공간",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/coffee.webp",
+    "source": "https://images.unsplash.com/photo-1442512595331-e89e73853f31",
+    "page": null,
+    "subject": "핸드드립 커피",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/restaurant.webp",
+    "source": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+    "page": null,
+    "subject": "레스토랑 공간",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/food.webp",
+    "source": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0",
+    "page": null,
+    "subject": "다이닝 접시",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/salon.webp",
+    "source": "https://images.unsplash.com/photo-1706629503603-e47c37722776",
+    "page": "https://unsplash.com/photos/a-room-with-a-bunch-of-chairs-and-lights-4hWaTsyoNaM",
+    "subject": "헤어 살롱 공간",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/interior.webp",
+    "source": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
+    "page": null,
+    "subject": "주거 인테리어",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/academy.webp",
+    "source": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570",
+    "page": null,
+    "subject": "학원·교육 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/fitness.webp",
+    "source": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
+    "page": null,
+    "subject": "피트니스·PT 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/bakery.webp",
+    "source": "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+    "page": null,
+    "subject": "베이커리 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/flower.webp",
+    "source": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d",
+    "page": null,
+    "subject": "꽃집·플라워 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/cleaning.webp",
+    "source": "https://images.unsplash.com/photo-1581578731548-c64695cc6952",
+    "page": null,
+    "subject": "청소·홈케어 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/auto.webp",
+    "source": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3",
+    "page": null,
+    "subject": "자동차 정비 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/logistics.webp",
+    "source": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+    "page": null,
+    "subject": "물류·유통 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/machinery.webp",
+    "source": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122",
+    "page": null,
+    "subject": "기계·설비 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/foodfactory.webp",
+    "source": "https://images.unsplash.com/photo-1513828646384-e4d8ec30d2bb",
+    "page": "https://unsplash.com/photos/gray-industrial-machine-xD5SWy7hMbw",
+    "subject": "식품제조·OEM 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/electronics.webp",
+    "source": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "page": null,
+    "subject": "전자부품·기술 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/construction.webp",
+    "source": "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+    "page": null,
+    "subject": "건축·설계 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/stay.webp",
+    "source": "https://images.unsplash.com/photo-1611892440504-42a792e24d32",
+    "page": null,
+    "subject": "숙박·스테이 참고 이미지",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  }
+]

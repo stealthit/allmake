@@ -26,6 +26,11 @@ function getLocale(request: NextRequest): string | undefined {
 export function middleware(request: NextRequest) {
     const pathname = request.nextUrl.pathname;
 
+    // Static sample pages keep their own paths and bypass locale redirects.
+    if (pathname === "/websample" || pathname.startsWith("/websample/")) {
+        return NextResponse.next();
+    }
+
     // Check if there is any supported locale in the pathname
     const pathnameIsMissingLocale = i18n.locales.every(
         (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
