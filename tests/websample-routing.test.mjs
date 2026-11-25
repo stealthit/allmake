@@ -59,7 +59,7 @@ test('company browser identity is consistent across localized and sample pages',
     assert.equal(response.status, 200, path);
     const html = await response.text();
     assert.equal(html.match(/<title>(.*?)<\/title>/s)?.[1], title, path);
-    assert.match(html, /\/branding\/stealth-mark\.svg\?v=20261125/, path);
+    assert.match(html, /\/branding\/stealth-favicon\.svg\?v=20261125-dark/, path);
   }
   const icon = await read('/favicon.ico');
   assert.equal(icon.status, 200);
