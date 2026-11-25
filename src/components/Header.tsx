@@ -48,9 +48,7 @@ export default function Header({ dictionary, lang }: HeaderProps) {
             }`}>
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 <Link href={`/${lang}`} className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
-                    <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white">
-                        <span className="material-symbols-outlined text-2xl">developer_mode_tv</span>
-                    </div>
+                    <img src="/branding/stealth-mark.svg" alt="" aria-hidden="true" width="40" height="40" className="w-10 h-10 rounded-lg shrink-0" />
                     <h1 className="text-2xl font-extrabold tracking-tight text-deep-charcoal dark:text-white">STEALTH</h1>
                 </Link>
 

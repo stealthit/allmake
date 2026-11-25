@@ -38,3 +38,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## Homepage samples
 
 The sample catalogue is available at `/websample`. See [the routing and update notes](docs/websample.md).
+
+The catalogue contains 30 homepage designs and 24 selectable footer layouts. Run `npm run samples:build` when changing its authoring data. Company browser branding uses the supplied STEALTH symbol.

@@ -19,23 +19,25 @@ const notoSansKr = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "STEALTH | Digital Innovation Agency",
-    template: "%s | STEALTH",
+  title: "스텔스인터렉티브 | STEALTH INTERACTIVE",
+  icons: {
+    icon: [{ url: "/branding/stealth-mark.svg?v=20261125", type: "image/svg+xml" }],
+    shortcut: "/branding/stealth-icon-32.png?v=20261125",
+    apple: "/branding/stealth-icon-180.png?v=20261125",
   },
   description: "Next-Gen Software Partner. Software development, Blockchain, and UI/UX solutions tailored for modern growth.",
   keywords: ["Software Development", "Blockchain", "UI/UX Design", "Web Development", "Mobile App", "STEALTH Interactive"],
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://www.stealthinteractivee.co.kr",
-    title: "STEALTH | Digital Innovation Agency",
+    url: "https://www.stealthinteractive.co.kr",
+    title: "스텔스인터렉티브 | STEALTH INTERACTIVE",
     description: "Next-Gen Software Partner. Software development, Blockchain, and UI/UX solutions tailored for modern growth.",
     siteName: "STEALTH Interactive",
   },
   twitter: {
     card: "summary_large_image",
-    title: "STEALTH | Digital Innovation Agency",
+    title: "스텔스인터렉티브 | STEALTH INTERACTIVE",
     description: "Next-Gen Software Partner. Software development, Blockchain, and UI/UX solutions tailored for modern growth.",
   },
   robots: {

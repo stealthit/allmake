@@ -42,3 +42,6 @@ next-env.d.ts
 
 .vercel
 
+
+# Local bytecode from the sample authoring generator
+tools/websample/__pycache__/
