@@ -26,7 +26,7 @@ test('sample detail pages and their static files remain under the sample prefix'
     assert.equal(response.status, 200, sample);
     const html = await response.text();
     assert.match(html, /id="sample-footer-slot"/);
-    assert.match(html, /href="\/websample\/index\.html#collection"/);
+    assert.match(html, /href="\/websample\/footer-layouts\.html\?sample=/);
   }
   for (const [path, contentType] of [
     ['/websample/assets/base.css', /text\/css/],
