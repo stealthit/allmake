@@ -1,0 +1,6 @@
+/* Original Lucide SVGs; copyright and ISC/MIT notices: icons/lucide/LICENSE. */
+.sample .sample-services .service-icon{display:inline-flex;align-items:center;justify-content:center;flex:none;width:64px;height:64px;padding:0;margin:0 0 24px;border:1px solid color-mix(in srgb,var(--accent) 20%,var(--paper));border-radius:17px;background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 12%,var(--paper)),color-mix(in srgb,var(--accent) 5%,var(--paper)));color:var(--accent);box-shadow:inset 0 1px 0 #ffffff16;font:normal 400 1rem/1 Pretendard,sans-serif;vertical-align:middle;transform:none}
+.sample .sample-services .service-pictogram{display:block;width:31px;height:31px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+.theme-materials .sample-services .service{grid-template-columns:64px minmax(0,1fr) minmax(0,1.1fr)}
+.theme-materials .sample-services .service-icon{margin:0}
+@media(max-width:760px){.sample .sample-services .service-icon{width:56px;height:56px;border-radius:14px;margin-bottom:20px}.sample .sample-services .service-pictogram{width:28px;height:28px}.theme-materials .sample-services .service{grid-template-columns:minmax(0,1fr)}.theme-materials .sample-services .service-icon{display:inline-flex}}
