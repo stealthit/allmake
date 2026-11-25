@@ -1,0 +1,22 @@
+{
+  "bodyFooterWidthCombinations": 576,
+  "widths": [
+    320,
+    1440
+  ],
+  "newSamples": [
+    "saas",
+    "energy",
+    "professional",
+    "automation",
+    "packaging",
+    "materials",
+    "pet",
+    "esthetic",
+    "studio",
+    "yoga",
+    "farm",
+    "craft"
+  ],
+  "errors": []
+}

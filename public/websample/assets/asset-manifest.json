@@ -187,5 +187,113 @@
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
     "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/saas.webp",
+    "source": "https://images.unsplash.com/photo-1663787652609-57b525eb6ee6",
+    "page": "https://unsplash.com/photos/a-close-up-of-a-server-room-FwcMuEOW3O0",
+    "subject": "Abstract dark blue software/server-inspired 3D waves; no people or branding",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/energy.webp",
+    "source": "https://images.unsplash.com/photo-1762381157076-4872b31961e0",
+    "page": "https://unsplash.com/photos/wind-turbines-and-solar-panels-in-a-rural-landscape-tlxsnnsfCh4",
+    "subject": "Wind turbines and solar panels in a green rural landscape",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/professional.webp",
+    "source": "https://images.unsplash.com/photo-1576073459656-9b03ee75cc92",
+    "page": "https://unsplash.com/photos/conference-room-with-unoccupied-chairs-and-table-e2YsciK_14E",
+    "subject": "Empty professional office meeting room with wooden table and black chairs",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/automation.webp",
+    "source": "https://images.unsplash.com/photo-1735494033834-d303e729aa09",
+    "page": "https://unsplash.com/photos/a-machine-cutting-a-piece-of-metal-in-a-factory-rvjrqygP2do",
+    "subject": "Automated industrial metal cutting machinery",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/packaging.webp",
+    "source": "https://images.unsplash.com/photo-1771848194068-169d817a1d6f",
+    "page": "https://unsplash.com/photos/a-closed-white-cardboard-box-on-a-white-surface-73rC6UnE4Ko",
+    "subject": "Plain closed cardboard package on white background",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/materials.webp",
+    "source": "https://images.unsplash.com/photo-1637325258040-d2f09636ecf6",
+    "page": "https://unsplash.com/photos/white-textured-paper-or-plaster-surface-k4Lt0CjUnb0",
+    "subject": "Recycled white paper material texture",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/pet.webp",
+    "source": "https://images.unsplash.com/photo-1538291558837-4f8275234328",
+    "page": "https://unsplash.com/photos/beige-coated-dog-portrait-40IcFtxokT8",
+    "subject": "Golden retriever dog portrait",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/esthetic.webp",
+    "source": "https://images.unsplash.com/photo-1620733723572-11c53f73a416",
+    "page": "https://unsplash.com/photos/reed-diffuser-with-candles-and-towel-W7AyAs7azHc",
+    "subject": "Spa still life with unbranded reed diffuser, white towel and candles",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/studio.webp",
+    "source": "https://images.unsplash.com/photo-1786325492063-8967ed6ad88d",
+    "page": "https://unsplash.com/photos/photography-studio-with-mirror-and-chair-OWPB5I0xgFg",
+    "subject": "Bright empty photography studio with concrete walls, softbox, mirror and director chair",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/yoga.webp",
+    "source": "https://images.unsplash.com/photo-1767605565789-5b18cdbbf6ae",
+    "page": "https://unsplash.com/photos/yoga-mats-and-plants-in-a-bright-room-TKyBEqQGfCM",
+    "subject": "Calm yoga equipment corner with mats and indoor plants",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/farm.webp",
+    "source": "https://images.unsplash.com/photo-1768113802440-cb8b176a591c",
+    "page": "https://unsplash.com/photos/rows-of-fresh-green-cabbage-plants-in-a-field-_XrwG2L8jjI",
+    "subject": "Fresh cabbage plants in a vegetable field",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
+  },
+  {
+    "file": "assets/craft.webp",
+    "source": "https://images.unsplash.com/photo-1772453609632-2f4aa857f56e",
+    "page": "https://unsplash.com/photos/various-ceramic-bowls-and-kitchen-utensils-arranged-decoratively-BU25z-gf4N4",
+    "subject": "Handmade ceramic bowls with wooden tools and eucalyptus",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked": "2026-11-25"
   }
 ]
