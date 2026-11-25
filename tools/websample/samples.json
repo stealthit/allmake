@@ -1945,5 +1945,389 @@
     "sample_code": "L-17",
     "design_name": "오브젝트 노트",
     "variant": "object"
+  },
+  {
+    "id": "motion-agency",
+    "category": "브랜딩·크리에이티브",
+    "group": "company",
+    "name": "무브먼트 스튜디오",
+    "en": "MOVEMENT",
+    "label": "기업 · 브랜딩·크리에이티브",
+    "title": "브랜드가<br>움직이는 순간.",
+    "short": "브랜드가<br>움직이는 순간.",
+    "desc": "시선을 잡는 첫인상부터 손끝에 반응하는 경험까지. 브랜드의 성격을 움직임과 디지털 화면으로 풀어냅니다.",
+    "image": "office",
+    "secondary": "studio",
+    "mood": "키네틱 타이포 · 포인터 반응",
+    "accent": "#25271e",
+    "bg": "#e9f362",
+    "cta": "프로젝트 문의",
+    "intro": "멈춰 있는 로고에서,<br>살아 있는 경험으로.",
+    "story": "브랜드를 만나는 장면은 늘 다릅니다. 사람들이 무엇을 보고, 누르고, 기억하는지 살펴 접점마다 일관된 리듬을 만듭니다.",
+    "services": [
+      [
+        "브랜드 방향",
+        "전하고 싶은 인상과 핵심 메시지를 정리합니다."
+      ],
+      [
+        "디지털 경험",
+        "화면의 흐름과 반응을 함께 설계합니다."
+      ],
+      [
+        "모션 언어",
+        "브랜드에 어울리는 속도와 움직임의 규칙을 만듭니다."
+      ]
+    ],
+    "detail": "만드는 방식",
+    "detailtitle": "움직임에도<br>분명한 목적을.",
+    "steps": [
+      [
+        "핵심 발견",
+        "브랜드의 이야기와 만나는 사람을 이해합니다."
+      ],
+      [
+        "경험 구성",
+        "시각과 인터랙션을 하나의 흐름으로 연결합니다."
+      ],
+      [
+        "반응 다듬기",
+        "기기와 사용 환경에 맞춰 움직임을 점검합니다."
+      ]
+    ],
+    "contact": "다음 브랜드의 장면을<br>함께 이야기해요.",
+    "fields": [],
+    "layout": "editorial",
+    "footer": "poster",
+    "sector": "business",
+    "text": "#20221b",
+    "tagline": "MOVEMENT / DESIGN CONCEPT",
+    "service_title": "브랜드의 성격을 경험으로.",
+    "menu": false,
+    "footer_layout": "poster",
+    "footer_layout_label": "별도 선택",
+    "sample_code": "B-07",
+    "design_name": "키네틱 플레이",
+    "variant": "interactive",
+    "interaction": "kinetic"
+  },
+  {
+    "id": "motion-product",
+    "category": "디지털 프로덕트",
+    "group": "company",
+    "name": "오비트 랩",
+    "en": "ORBIT LAB",
+    "label": "기업 · 디지털 프로덕트",
+    "title": "복잡한 흐름을,<br>편안한 경험으로.",
+    "short": "복잡한 흐름을,<br>편안한 경험으로.",
+    "desc": "생각을 화면으로, 화면을 자연스러운 사용 경험으로. 제품이 필요한 사람과 만나는 방식을 설계합니다.",
+    "image": "saas",
+    "secondary": "office",
+    "mood": "스크롤 챕터 · UI 전환",
+    "accent": "#ccbcff",
+    "bg": "#14121f",
+    "cta": "제품 상담",
+    "intro": "기능의 목록보다<br>사용자의 다음 행동.",
+    "story": "무엇을 만들지 정하기 전에 어떻게 쓰일지 살핍니다. 이해하기 쉬운 정보 구조와 자연스러운 화면 반응을 연결합니다.",
+    "services": [
+      [
+        "제품 기획",
+        "대상 사용자와 해결할 문제를 구체화합니다."
+      ],
+      [
+        "화면 설계",
+        "정보 구조와 주요 사용 흐름을 설계합니다."
+      ],
+      [
+        "경험 점검",
+        "프로토타입으로 행동과 반응을 확인합니다."
+      ]
+    ],
+    "detail": "제품의 흐름",
+    "detailtitle": "하나의 선택이<br>다음 장면으로.",
+    "steps": [
+      [
+        "상황 이해",
+        "사람들이 겪는 상황과 필요한 결과를 듣습니다."
+      ],
+      [
+        "구조 만들기",
+        "기능의 우선순위와 화면 간 관계를 정리합니다."
+      ],
+      [
+        "흐름 확인",
+        "주요 시나리오를 따라 사용 경험을 점검합니다."
+      ]
+    ],
+    "contact": "만들고 싶은 제품의<br>출발점을 들려주세요.",
+    "fields": [],
+    "layout": "full",
+    "footer": "terminal",
+    "sector": "business",
+    "text": "#f6f3ff",
+    "tagline": "ORBIT LAB / DESIGN CONCEPT",
+    "service_title": "아이디어에서 사용 흐름까지.",
+    "menu": false,
+    "footer_layout": "terminal",
+    "footer_layout_label": "별도 선택",
+    "sample_code": "B-08",
+    "design_name": "오비트 플로우",
+    "variant": "interactive",
+    "interaction": "chapters"
+  },
+  {
+    "id": "motion-industry",
+    "category": "정밀가공·제품개발",
+    "group": "factory",
+    "name": "레이어 정밀",
+    "en": "LAYER PRECISION",
+    "label": "제조 · 정밀가공·제품개발",
+    "title": "작은 차이까지,<br>정확한 방향으로.",
+    "short": "작은 차이까지,<br>정확한 방향으로.",
+    "desc": "도면의 조건과 소재의 특성, 실제 쓰임을 함께 검토합니다. 가공과 제작의 과정을 이해하기 쉽게 안내합니다.",
+    "image": "machinery",
+    "secondary": "factory",
+    "mood": "공정 스크러버 · 기술 비주얼",
+    "accent": "#1b5bd7",
+    "bg": "#e9edf1",
+    "cta": "제작 문의",
+    "intro": "부품의 시작은<br>조건을 읽는 일.",
+    "story": "같은 형태도 소재와 용도에 따라 제작 방법이 달라집니다. 제품이 쓰이는 환경부터 살펴 필요한 공정과 검토 기준을 정리합니다.",
+    "services": [
+      [
+        "도면 검토",
+        "형상과 치수, 확인할 사양을 함께 살핍니다."
+      ],
+      [
+        "가공 방향",
+        "소재와 용도에 맞는 가공 방법을 검토합니다."
+      ],
+      [
+        "제작 협의",
+        "수량과 일정, 확인 기준을 정리합니다."
+      ]
+    ],
+    "detail": "검토의 순서",
+    "detailtitle": "과정이 보이면<br>협의도 명확해집니다.",
+    "steps": [
+      [
+        "자료 확인",
+        "도면과 요구 조건을 먼저 확인합니다."
+      ],
+      [
+        "공정 검토",
+        "가공과 후처리에 필요한 범위를 살핍니다."
+      ],
+      [
+        "조건 협의",
+        "수량·납기·확인 기준을 함께 정합니다."
+      ]
+    ],
+    "contact": "필요한 부품의 조건을<br>함께 살펴보겠습니다.",
+    "fields": [],
+    "layout": "split",
+    "footer": "blueprint",
+    "sector": "manufacturing",
+    "text": "#192735",
+    "tagline": "LAYER PRECISION / DESIGN CONCEPT",
+    "service_title": "도면에서 제작 조건까지.",
+    "menu": false,
+    "footer_layout": "blueprint",
+    "footer_layout_label": "별도 선택",
+    "sample_code": "F-08",
+    "design_name": "프리시전 스크럽",
+    "variant": "interactive",
+    "interaction": "scrubber"
+  },
+  {
+    "id": "motion-living",
+    "category": "가구·리빙 쇼룸",
+    "group": "local",
+    "name": "룸앤폼",
+    "en": "ROOM & FORM",
+    "label": "소상공인 · 가구·리빙 쇼룸",
+    "title": "머무는 방식을,<br>새롭게.",
+    "short": "머무는 방식을,<br>새롭게.",
+    "desc": "하나의 가구가 바꾸는 공간의 표정. 쓰임과 취향 사이에서 나에게 맞는 구성을 발견하는 리빙 쇼룸입니다.",
+    "image": "interior",
+    "secondary": "stay",
+    "mood": "가로 갤러리 · 이미지 패럴랙스",
+    "accent": "#b54427",
+    "bg": "#f4f2ed",
+    "cta": "쇼룸 상담",
+    "intro": "보는 가구에서<br>함께 사는 가구로.",
+    "story": "좋아하는 모양과 편안한 사용은 함께 가야 합니다. 공간의 크기와 생활 방식을 살펴 어울리는 소재와 조합을 이야기합니다.",
+    "services": [
+      [
+        "공간 구성",
+        "생활 방식과 공간 조건에 맞는 배치를 상담합니다."
+      ],
+      [
+        "소재 탐색",
+        "질감과 관리 방법, 조합을 함께 살펴봅니다."
+      ],
+      [
+        "방문 상담",
+        "확인하고 싶은 제품과 방문 범위를 안내합니다."
+      ]
+    ],
+    "detail": "쇼룸의 시선",
+    "detailtitle": "같은 공간에도<br>다른 선택이 있습니다.",
+    "steps": [
+      [
+        "공간 이해",
+        "치수와 동선, 사용하는 장면을 나눕니다."
+      ],
+      [
+        "취향 발견",
+        "색과 질감, 편안함의 기준을 정리합니다."
+      ],
+      [
+        "조합 살펴보기",
+        "가구와 주변 요소의 관계를 함께 살핍니다."
+      ]
+    ],
+    "contact": "당신의 공간 이야기를<br>들려주세요.",
+    "fields": [],
+    "layout": "editorial",
+    "footer": "editorial",
+    "sector": "local",
+    "text": "#2e322b",
+    "tagline": "ROOM & FORM / DESIGN CONCEPT",
+    "service_title": "공간과 취향을 함께 살핍니다.",
+    "menu": false,
+    "footer_layout": "editorial",
+    "footer_layout_label": "별도 선택",
+    "sample_code": "L-18",
+    "design_name": "슬라이드 룸",
+    "variant": "interactive",
+    "interaction": "gallery"
+  },
+  {
+    "id": "motion-roastery",
+    "category": "커피 로스터리",
+    "group": "local",
+    "name": "노트 로스터스",
+    "en": "NOTE ROASTERS",
+    "label": "소상공인 · 커피 로스터리",
+    "title": "당신의 취향을<br>한 잔에 담아.",
+    "short": "당신의 취향을<br>한 잔에 담아.",
+    "desc": "산뜻한 첫 향부터 묵직한 여운까지. 한 잔을 고르는 시간이 나의 취향을 발견하는 시간이 되길 바랍니다.",
+    "image": "coffee",
+    "secondary": "cafe",
+    "mood": "취향 선택 · 감각적 색상 전환",
+    "accent": "#a03e28",
+    "bg": "#f7ddd3",
+    "cta": "커피 상담",
+    "intro": "커피의 설명보다<br>당신이 느끼는 맛.",
+    "story": "같은 원두도 내리는 방법과 마시는 순간에 따라 다르게 다가옵니다. 익숙한 맛부터 새로운 향까지 편안하게 이야기합니다.",
+    "services": [
+      [
+        "원두 취향 상담",
+        "산미와 향, 바디감의 선호를 함께 살핍니다."
+      ],
+      [
+        "추출 이야기",
+        "사용하는 도구와 마시는 방식에 맞춰 안내합니다."
+      ],
+      [
+        "공간과 커피",
+        "머무는 시간에 어울리는 커피 경험을 소개합니다."
+      ]
+    ],
+    "detail": "커피를 만나는 순서",
+    "detailtitle": "좋아하는 맛에<br>이름을 붙여보세요.",
+    "steps": [
+      [
+        "취향 듣기",
+        "평소 좋아하는 커피의 인상을 나눕니다."
+      ],
+      [
+        "다르게 살펴보기",
+        "향과 맛의 차이를 편안하게 비교합니다."
+      ],
+      [
+        "일상으로 연결",
+        "내리는 방식과 보관 방법을 안내합니다."
+      ]
+    ],
+    "contact": "취향에 관한 질문을<br>편하게 나눠주세요.",
+    "fields": [],
+    "layout": "framed",
+    "footer": "receipt",
+    "sector": "local",
+    "text": "#40261f",
+    "tagline": "NOTE ROASTERS / DESIGN CONCEPT",
+    "service_title": "좋아하는 한 잔을 찾는 방법.",
+    "menu": false,
+    "footer_layout": "receipt",
+    "footer_layout_label": "별도 선택",
+    "sample_code": "L-19",
+    "design_name": "센서리 브루",
+    "variant": "interactive",
+    "interaction": "flavor"
+  },
+  {
+    "id": "motion-culture",
+    "category": "문화공간·클래스",
+    "group": "local",
+    "name": "레이어 하우스",
+    "en": "LAYER HOUSE",
+    "label": "소상공인 · 문화공간·클래스",
+    "title": "일상에 겹쳐지는<br>새로운 장면.",
+    "short": "일상에 겹쳐지는<br>새로운 장면.",
+    "desc": "전시를 보고, 손으로 만들고, 서로의 생각을 나누는 공간. 가벼운 호기심이 다음 경험으로 이어집니다.",
+    "image": "studio",
+    "secondary": "craft",
+    "mood": "포스터 아코디언 · 선택형 콘텐츠",
+    "accent": "#f1ed9b",
+    "bg": "#2446df",
+    "cta": "공간 문의",
+    "intro": "문을 열면<br>다른 시선이 시작됩니다.",
+    "story": "같은 장소도 함께하는 사람과 활동에 따라 다른 공간이 됩니다. 관람과 참여 사이에서 자신만의 속도로 경험할 수 있는 시간을 제안합니다.",
+    "services": [
+      [
+        "공간 둘러보기",
+        "공간의 구성과 이용 방법을 소개합니다."
+      ],
+      [
+        "클래스 이야기",
+        "관심 분야와 참여 방식에 맞춰 안내합니다."
+      ],
+      [
+        "그룹 경험",
+        "함께하는 목적과 구성에 맞는 범위를 협의합니다."
+      ]
+    ],
+    "detail": "참여하는 방식",
+    "detailtitle": "궁금한 장면부터<br>가볍게 골라보세요.",
+    "steps": [
+      [
+        "관심 찾기",
+        "마음이 가는 분야와 활동을 골라봅니다."
+      ],
+      [
+        "조건 살펴보기",
+        "인원과 일정, 준비할 내용을 확인합니다."
+      ],
+      [
+        "경험 나누기",
+        "참여 목적에 어울리는 구성을 협의합니다."
+      ]
+    ],
+    "contact": "함께 만들고 싶은 시간을<br>들려주세요.",
+    "fields": [],
+    "layout": "full",
+    "footer": "poster",
+    "sector": "local",
+    "text": "#f7f5ed",
+    "tagline": "LAYER HOUSE / DESIGN CONCEPT",
+    "service_title": "보고, 만들고, 함께 나누는 시간.",
+    "menu": false,
+    "footer_layout": "poster",
+    "footer_layout_label": "별도 선택",
+    "sample_code": "L-20",
+    "design_name": "포스터 스택",
+    "variant": "interactive",
+    "interaction": "posters"
   }
 ]

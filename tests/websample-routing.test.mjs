@@ -15,7 +15,7 @@ test('catalogue entry keeps the non-localized path, including its no-slash URL',
     assert.match(new URL(response.url).pathname, /^\/websample(?:\/|$)/);
     const html = await response.text();
     assert.match(html, /홈페이지 디자인 샘플/);
-    assert.equal((html.match(/class="sample-card"/g) || []).length, 30);
+    assert.equal((html.match(/class="sample-card"/g) || []).length, samples.length);
     assert.match(html, /src="\/websample\/assets\/app\.js/);
   }
 });
