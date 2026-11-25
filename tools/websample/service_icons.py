@@ -3,6 +3,12 @@
 from pathlib import Path
 from html import escape
 ICON_SETS = {
+ 'motion-agency': ('palette', 'panels-top-left', 'activity'),
+ 'motion-product': ('notebook-pen', 'workflow', 'scan-square'),
+ 'motion-industry': ('pencil-ruler', 'cog', 'clipboard-check'),
+ 'motion-living': ('house', 'layers', 'store'),
+ 'motion-roastery': ('coffee', 'droplets', 'cup-soda'),
+ 'motion-culture': ('landmark', 'paintbrush', 'users-round'),
  'company': ('chart-no-axes-combined', 'notebook-pen', 'handshake'),
  'factory': ('cog', 'anvil', 'ruler'),
  'cafe': ('coffee', 'cup-soda', 'croissant'),

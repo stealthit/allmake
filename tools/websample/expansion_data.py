@@ -16,10 +16,13 @@ ROWS=[
  dict(id='craft',category='공방·클래스',name='손끝공방',en='SONKKEUT ATELIER',sample_code='L-17',design_name='오브젝트 노트',group='local',sector='life',variant='object',layout='split',bg='#eee8e0',text='#4b4036',accent='#8b674e',secondary='interior',title='손끝에서 시작되는<br>나만의 물건.',desc='흙의 촉감과 천천히 쌓이는 형태를 만납니다. 손끝공방은 만드는 과정을 즐기며 취향을 발견하는 시간을 제안합니다.',intro='완성의 모양보다<br>만드는 시간에 가까이.',story='처음 다뤄보는 재료에도 각자의 감각이 담깁니다. 작은 형태부터 시작해 손으로 느끼고 고르는 과정을 함께 살펴봅니다.',service_title='물건과 취향을 만나는 클래스.',services=[('원데이 클래스','처음 재료를 만나는 수업 구성을 안내합니다.'),('정규 과정 상담','꾸준히 이어갈 수 있는 과정의 방향을 나눕니다.'),('그룹·단체 수업','인원과 목적에 따른 이용 조건을 협의합니다.')],detail='만드는 시간',detailtitle='재료를 만나고,<br>형태를 발견합니다.',steps=[('만들고 싶은 것 공유','관심 있는 물건과 재료 경험을 이야기합니다.'),('과정과 도구 안내','수업의 흐름과 준비할 내용을 살펴봅니다.'),('완성과 수령 확인','작업 후 필요한 과정과 수령 방법을 안내합니다.')],contact='만들고 싶은 물건을<br>함께 떠올려볼까요.',cta='클래스 안내',guide=('클래스를 고르기 전에',[('관심 있는 작업','만들고 싶은 물건이나 재료를 알려주세요.'),('참여 인원','혼자 또는 함께할 인원을 알려주세요.'),('수업 일정','참여 가능한 시기와 희망 과정을 정리해 주세요.')]),lead='결과물의 형태와 수령 시점은 선택한 재료와 과정에 따라 달라집니다.',note='하루의 체험부터 꾸준한 작업 과정까지.',footer_title='클래스 구성과<br>공방 이용.',footer_summary='수업과 작업 과정, 공방의 주요 정보를 모았습니다.',default_footer='editorial'),
 ]
 
+from interaction_data import INTERACTION_ROWS
+ROWS += INTERACTION_ROWS
+
 def expanded_samples(base):
  result=[]
  for row in ROWS:
   s=dict(base);s.update({k:v for k,v in row.items() if k not in ['guide','lead','note','footer_title','footer_summary','default_footer']})
-  s.update(mood={'bento':'모듈형 · 소프트 테크','impact':'풀블리드 · 에코','editorial':'클래식 · 타이포 중심','technical':'다크 · 테크니컬','colorblock':'컬러블록 · 볼드','archive':'머티리얼 · 아카이브','playful':'플레이풀 · 라운드','air':'에어리 · 소프트','gallery':'포토갤러리 · 다크','warm':'웜톤 · 호흡','market':'내추럴 · 에코','object':'크래프트 · 매거진'}[row['variant']],image=row['id'],short=row['title'],tagline=row['en']+' / DESIGN CONCEPT',label={'company':'기업','factory':'제조','local':'소상공인'}[row['group']]+' · '+row['category'],footer=row['default_footer'],footer_layout=row['default_footer'],footer_layout_label='별도 선택',fields=[],menu=row['id']=='farm')
+  s.update(mood={'bento':'모듈형 · 소프트 테크','impact':'풀블리드 · 에코','editorial':'클래식 · 타이포 중심','technical':'다크 · 테크니컬','colorblock':'컬러블록 · 볼드','archive':'머티리얼 · 아카이브','playful':'플레이풀 · 라운드','air':'에어리 · 소프트','gallery':'포토갤러리 · 다크','warm':'웜톤 · 호흡','market':'내추럴 · 에코','object':'크래프트 · 매거진'}.get(row['variant'],row.get('mood','인터랙션')),image=row.get('image',row['id']),short=row['title'],tagline=row['en']+' / DESIGN CONCEPT',label={'company':'기업','factory':'제조','local':'소상공인'}[row['group']]+' · '+row['category'],footer=row['default_footer'],footer_layout=row['default_footer'],footer_layout_label='별도 선택',fields=[],menu=row['id']=='farm')
   result.append(s)
  return result

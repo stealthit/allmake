@@ -1,0 +1,1733 @@
+{
+  "checks": [
+    {
+      "sample": "motion-agency",
+      "footer": "basic-line",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-stack",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-dark",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-center",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-columns",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-contact",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "directory",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "blueprint",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "receipt",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "dining",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "monogram",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "editorial",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "noticeboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "poster",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "seal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "botanical",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "service",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "dashboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "route",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "workshop",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "packaging",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "terminal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "drawing",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "postcard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-line",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-stack",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-dark",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-center",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-columns",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-contact",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "directory",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "blueprint",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "receipt",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "dining",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "monogram",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "editorial",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "noticeboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "poster",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "seal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "botanical",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "service",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "dashboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "route",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "workshop",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "packaging",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "terminal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "drawing",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "postcard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-line",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-stack",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-dark",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-center",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-columns",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-contact",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "directory",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "blueprint",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "receipt",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "dining",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "monogram",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "editorial",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "noticeboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "poster",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "seal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "botanical",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "service",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "dashboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "route",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "workshop",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "packaging",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "terminal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "drawing",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "postcard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-line",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-stack",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-dark",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-center",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-columns",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-contact",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "directory",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "blueprint",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "receipt",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "dining",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "monogram",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "editorial",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "noticeboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "poster",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "seal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "botanical",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "service",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "dashboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "route",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "workshop",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "packaging",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "terminal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "drawing",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "postcard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-line",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-stack",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-dark",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-center",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-columns",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-contact",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "directory",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "blueprint",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "receipt",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "dining",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "monogram",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "editorial",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "noticeboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "poster",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "seal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "botanical",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "service",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "dashboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "route",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "workshop",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "packaging",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "terminal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "drawing",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "postcard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-line",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-stack",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-dark",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-center",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-columns",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-contact",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "directory",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "blueprint",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "receipt",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "dining",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "monogram",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "editorial",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "noticeboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "poster",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "seal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "botanical",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "service",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "dashboard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "route",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "workshop",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "packaging",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "terminal",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "drawing",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "postcard",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-line",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-stack",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-dark",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-center",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-columns",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "basic-contact",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "directory",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "blueprint",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "receipt",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "dining",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "monogram",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "editorial",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "noticeboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "poster",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "seal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "botanical",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "service",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "dashboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "route",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "workshop",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "packaging",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "terminal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "drawing",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-agency",
+      "footer": "postcard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-line",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-stack",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-dark",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-center",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-columns",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "basic-contact",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "directory",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "blueprint",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "receipt",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "dining",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "monogram",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "editorial",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "noticeboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "poster",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "seal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "botanical",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "service",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "dashboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "route",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "workshop",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "packaging",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "terminal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "drawing",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-product",
+      "footer": "postcard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-line",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-stack",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-dark",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-center",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-columns",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "basic-contact",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "directory",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "blueprint",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "receipt",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "dining",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "monogram",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "editorial",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "noticeboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "poster",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "seal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "botanical",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "service",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "dashboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "route",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "workshop",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "packaging",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "terminal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "drawing",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-industry",
+      "footer": "postcard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-line",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-stack",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-dark",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-center",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-columns",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "basic-contact",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "directory",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "blueprint",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "receipt",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "dining",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "monogram",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "editorial",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "noticeboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "poster",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "seal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "botanical",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "service",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "dashboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "route",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "workshop",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "packaging",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "terminal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "drawing",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-living",
+      "footer": "postcard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-line",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-stack",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-dark",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-center",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-columns",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "basic-contact",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "directory",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "blueprint",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "receipt",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "dining",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "monogram",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "editorial",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "noticeboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "poster",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "seal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "botanical",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "service",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "dashboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "route",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "workshop",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "packaging",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "terminal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "drawing",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-roastery",
+      "footer": "postcard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-line",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-stack",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-dark",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-center",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-columns",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "basic-contact",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "directory",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "blueprint",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "receipt",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "dining",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "monogram",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "editorial",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "noticeboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "poster",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "seal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "botanical",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "service",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "dashboard",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "route",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "workshop",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "packaging",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "terminal",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "drawing",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "sample": "motion-culture",
+      "footer": "postcard",
+      "width": 1440,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

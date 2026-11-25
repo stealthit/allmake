@@ -73,9 +73,17 @@ test('successful inquiry sends the selected design and reply address only to the
   const decoded = /Content-Transfer-Encoding: base64/i.test(captured[0].message) ? Buffer.from(body.replace(/\s/g, ''), 'base64').toString('utf8') : Buffer.from(body.replace(/=\r\n/g, '').replace(/=([A-F0-9]{2})/gi, (_, hex) => String.fromCharCode(parseInt(hex, 16))), 'latin1').toString('utf8');
   for (const text of ['F-05', '퓨처 모션', '영수증형', valid.needs, valid.business, valid.schedule]) assert(decoded.includes(text), text);
 });
+test('new interaction sample identities are included in inquiry mail', async () => {
+  const response = await post({ ...valid, sample: 'motion-product' });
+  assert.equal(response.status, 200); assert.equal((await response.json()).success, true);
+  assert.equal(captured.length, 2);
+  const message = captured[1].message, body = message.split('\r\n\r\n').slice(1).join('\r\n\r\n');
+  const decoded = /Content-Transfer-Encoding: base64/i.test(message) ? Buffer.from(body.replace(/\s/g, ''), 'base64').toString('utf8') : Buffer.from(body.replace(/=\r\n/g, '').replace(/=([A-F0-9]{2})/gi, (_, hex) => String.fromCharCode(parseInt(hex, 16))), 'latin1').toString('utf8');
+  assert(decoded.includes('B-08') && decoded.includes('오비트 플로우'));
+});
 test('SMTP rejection returns failure rather than a success notice', async () => {
   rejectMail = true;
   const response = await post(valid);
   assert.equal(response.status, 502); assert.equal((await response.json()).success, false);
-  assert.equal(captured.length, 1);
+  assert.equal(captured.length, 2);
 });
