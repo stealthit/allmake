@@ -6,6 +6,8 @@ from content_copy import FOOTER_COPY
 # Fictional display-only contact details; never use the inquiry recipient here.
 SAMPLE_ADDRESS = "서울시 샘플구 샘플로 123, 2층"
 SAMPLE_PHONE = "02-0000-0000"
+SAMPLE_REPRESENTATIVE = "김샘플"
+SAMPLE_REGISTRATION = "000-00-00000 (샘플)"
 SAMPLE_HOURS = "평일 09:00–18:00 (샘플)"
 
 LAYOUTS = {
@@ -81,7 +83,7 @@ def links(s, cls='', labels=None):
 
 def info(s, cls='', compact=False, exclude=()):
  fields=[('주소',SAMPLE_ADDRESS),('연락처',SAMPLE_PHONE)]
- if not compact:fields += [('대표자','실제 업체 정보 적용 예정'),('사업자번호','실제 등록번호 적용 예정')]
+ if not compact:fields += [('대표자',SAMPLE_REPRESENTATIVE),('사업자번호',SAMPLE_REGISTRATION)]
  return '<dl class="vf-info '+cls+'">'+''.join(f'<div><dt>{label}</dt><dd>{value}</dd></div>' for label,value in fields if label not in exclude)+'</dl>'
 
 def cta(s,label=None,cls=''):
@@ -120,13 +122,13 @@ def render_footer(prefix='',sample=None,layout_id=None):
  elif layout=='dining':
   body=f'''<div class="vf-dining-center"><span class="vf-dining-rule" aria-hidden="true"></span><span class="vf-kicker">{en}</span>{b}<p>{short}</p>{nav}<div class="vf-dining-visit"><span>LOCATION<br><b>{address}</b></span><span>OPENING HOURS<br><b>{hours}</b></span><span>CONTACT<br><b>{phone}</b></span></div>{button}<span class="vf-dining-rule" aria-hidden="true"></span></div>'''
  elif layout=='monogram':
-  body=f'''<div class="vf-monogram-grid"><div class="vf-monogram-display"><span class="vf-kicker">{en}</span><span class="vf-gyeol" aria-hidden="true" style="font-size:{signature_size}">{signature}</span><p>{short}</p></div><div class="vf-salon-panels"><a class="vf-salon-main" href="#contact"><span>CONSULTATION</span><h2>{message}</h2><span class="vf-underlined">{e(s['cta'])}</span></a><div class="vf-salon-mini"><div><h3>CONTACT & VISIT</h3><p>{address}<br>{phone}</p></div>{nav}</div></div></div><div class="vf-salon-name">{b}<span>임시 텍스트 로고</span></div>'''
+  body=f'''<div class="vf-monogram-grid"><div class="vf-monogram-display"><span class="vf-kicker">{en}</span><span class="vf-gyeol" aria-hidden="true" style="font-size:{signature_size}">{signature}</span><p>{short}</p></div><div class="vf-salon-panels"><a class="vf-salon-main" href="#contact"><span>CONSULTATION</span><h2>{message}</h2><span class="vf-underlined">{e(s['cta'])}</span></a><div class="vf-salon-mini"><div><h3>CONTACT & VISIT</h3><p>{address}<br>{phone}</p></div>{nav}</div></div></div><div class="vf-salon-name">{b}<span>{e(s['category'])}</span></div>'''
  elif layout=='editorial':
   body=f'''<div class="vf-editorial-head"><span class="vf-kicker">{tag}</span>{button}</div><a class="vf-editorial-word" href="#main" aria-label="{name} 맨 위로" style="font-size:{editorial_size}">{editorial_word}<span>{en}</span></a><div class="vf-editorial-line"><p>{short}</p>{nav}<div class="vf-editorial-address">{brief}</div></div>'''
  elif layout=='noticeboard':
   body=f'''<div class="vf-learning-top">{b}<p>{short}</p></div><div class="vf-notice-cards"><a href="#services" class="vf-note-card vf-note-yellow"><span>PROGRAM</span><h2>어떤 일을<br>하나요?</h2><p>{service_label}</p></a><a href="#story" class="vf-note-card vf-note-lilac"><span>PROCESS</span><h2>어떤 과정을<br>거치나요?</h2><p>{e(s['detail'])}</p></a><a href="#contact" class="vf-note-card vf-note-white"><span>MEET US</span><h2>{message}</h2><p>{e(s['cta'])}</p></a></div><div class="vf-learning-info"><span>방문 주소 · {address}</span><span>상담 연락처 · {phone}</span></div>'''
  elif layout=='poster':
-  body=f'''<div class="vf-poster-masthead"><span>{en}</span><span>{tag}</span></div><div class="vf-poster-word" aria-hidden="true" style="font-size:{poster_size}">{poster}</div><div class="vf-poster-action"><h2>{message}</h2>{button}</div><div class="vf-poster-floor">{nav}<div><span>{name} · 임시 상호</span><span>{address}<br>{phone}</span></div></div>'''
+  body=f'''<div class="vf-poster-masthead"><span>{en}</span><span>{tag}</span></div><div class="vf-poster-word" aria-hidden="true" style="font-size:{poster_size}">{poster}</div><div class="vf-poster-action"><h2>{message}</h2>{button}</div><div class="vf-poster-floor">{nav}<div><span>{name} · {e(s['category'])}</span><span>{address}<br>{phone}</span></div></div>'''
  elif layout=='seal':
   body=f'''<div class="vf-bakery-grid"><div class="vf-bakery-side"><span class="vf-kicker">{en}</span><h2>{message}</h2>{nav}</div><div class="vf-bakery-seal"><span>{e(s['category'])}</span><strong style="font-size:clamp(1.7rem,calc(160px / {seal_chars}),4rem)">{seal_name}</strong><i>{en}</i></div><div class="vf-bakery-side vf-bakery-visit"><h3>COME SAY HELLO.</h3><p>{address}<br>{hours}<br>{phone}</p>{button}<span class="vf-small">{short}</span></div></div>'''
  elif layout=='botanical':
@@ -144,7 +146,7 @@ def render_footer(prefix='',sample=None,layout_id=None):
  elif layout=='terminal':
   body=f'''<div class="vf-terminal-frame"><div class="vf-terminal-bar"><span>{en} / CONTACT</span><span>DESIGN PREVIEW</span></div><div class="vf-terminal-grid"><div class="vf-terminal-prompt"><span class="vf-code-label">CONNECT_WITH_US</span><h2>{message}</h2>{b}<p>{short}</p></div><nav class="vf-command-list" aria-label="하단 주요 안내"><a href="#about"><span>ABOUT</span>브랜드 소개</a><a href="#services"><span>SPEC</span>{service_label}</a><a href="#story"><span>PROCESS</span>{e(s['detail'])}</a><a href="#contact"><span>CONTACT</span>{e(s['cta'])}</a></nav></div><div class="vf-terminal-meta"><span>{e(s['category'])} · 업체 안내</span><span>{address}<br>{phone}</span></div></div>'''
  elif layout=='drawing':
-  body=f'''<div class="vf-drawing-top">{b}{nav}</div><div class="vf-drawing-frame"><span class="vf-drawing-annotation">{en}</span><h2>{message}</h2>{button}<span class="vf-drawing-caption">{short}</span></div><div class="vf-drawing-address">{brief}<span>{e(s['category'])} · 임시 상호</span></div>'''
+  body=f'''<div class="vf-drawing-top">{b}{nav}</div><div class="vf-drawing-frame"><span class="vf-drawing-annotation">{en}</span><h2>{message}</h2>{button}<span class="vf-drawing-caption">{short}</span></div><div class="vf-drawing-address">{brief}<span>{e(s['category'])} · 업체 안내</span></div>'''
  elif layout=='postcard':
   body=f'''<div class="vf-postcard-scene"><img class="vf-stay-photo" src="{prefix}assets/{s['image']}.webp" alt="{e(s['category'])} 참고 사진" width="1600" height="900" loading="lazy"><div class="vf-postcard-paper"><span class="vf-postcard-stamp">{e(s['en'].split()[0])}</span><div><span class="vf-kicker">{en}</span><h2>{message}</h2>{b}</div><div class="vf-postcard-to"><span>INFORMATION</span><p>{short}</p>{button}</div></div><div class="vf-postcard-visit">{nav}<span>{address}<br>{phone}</span></div></div>'''
  else:
